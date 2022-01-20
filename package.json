@@ -1,0 +1,15 @@
+{
+  "name": "thehubaubg",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "api:dev": "yarn workspace api start:dev",
+    "frontend:dev": "yarn workspace web start"
+  }
+}
