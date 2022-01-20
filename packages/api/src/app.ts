@@ -2,23 +2,11 @@ import express from 'express';
 
 import routes from './routes';
 
-class App {
-  public server;
+const app = express();
+const PORT = process.env.PORT || 3000;
 
-  constructor() {
-    this.server = express();
+app.use(routes);
 
-    this.middlewares();
-    this.routes();
-  }
-
-  middlewares() {
-    this.server.use(express.json());
-  }
-
-  routes() {
-    this.server.use(routes);
-  }
-}
-
-export default new App().server;
+app.listen(PORT, () => {
+  console.log(`Server is now running on ${PORT}...`);
+})
