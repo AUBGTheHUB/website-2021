@@ -2,7 +2,7 @@ import express from 'express';
 import dotenv from 'dotenv';
 import { connect } from 'mongoose';
 
-import routes from './routes';
+import routes from './routes/routes';
 
 dotenv.config({ path: `${__dirname}/.env` });
 
