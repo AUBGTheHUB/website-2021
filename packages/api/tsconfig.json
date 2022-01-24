@@ -2,7 +2,7 @@
   "compilerOptions": {
     "module": "commonjs",
     "esModuleInterop": true,
-    "target": "es6",
+    "target": "es2017",
     "noImplicitAny": true,
     "moduleResolution": "node",
     "sourceMap": true,
@@ -10,10 +10,11 @@
     "baseUrl": ".",
     "strict": true,
     "resolveJsonModule": true,
+    "skipLibCheck": true,
     "paths": {
       "*": ["node_modules/*"]
     }
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*.ts"],
   "exclude": ["node_modules", ".vscode"]
 }
