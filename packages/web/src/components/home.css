@@ -1,6 +1,19 @@
-.background_image{
-    background-image: url('./wallpaper\ ratio.png');
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-size: cover;
+.background_image {
+  margin: 0px;
+  height: 100vh;
+  background-image: linear-gradient(to right, rgb(6, 57, 112), rgb(30, 129, 176));
+}
+
+.hubzie {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+@media screen and (max-width: 1600px) {
+  @media screen and (min-width: 1000px) {
+    .hubzie {
+      display: none;
+    }
+  }
 }
