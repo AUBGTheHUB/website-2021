@@ -1,9 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navigation from './components/navbar';
-import Home from './components/home';
+import Home from './components/HomeComponents/home';
 
 function App() {
   return <Home></Home>;

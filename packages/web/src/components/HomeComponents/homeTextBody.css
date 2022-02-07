@@ -1,0 +1,56 @@
+.bodyText {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  color: white;
+  padding-top: 12rem;
+}
+
+.logo {
+  width: 25rem;
+  height: auto;
+  padding-top: 5rem;
+}
+
+.textAndLogo {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0rem;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: auto;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .logo {
+    display: none;
+  }
+  .bodyText {
+    padding-top: 5rem;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  @media only screen and (max-height: 715px) {
+    .textAndLogo {
+      padding-top: 8rem;
+    }
+    .hubzie {
+      display: none;
+    }
+    .bodyText {
+      padding-top: 0;
+    }
+  }
+}
+
+.hackathonButton {
+  color: white;
+  background-color: rgb(37, 150, 190);
+  border-color: transparent;
+  z-index: 1;
+}
