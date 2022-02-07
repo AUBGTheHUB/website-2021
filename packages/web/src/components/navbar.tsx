@@ -6,22 +6,15 @@ import { useMediaQuery } from 'react-responsive';
 const Navigation = () => {
   const isMobile = useMediaQuery({ query: '(max-width: 1000px)' });
   const bgStyle = isMobile ? 'dark' : 'transparent';
-  const textStyle = isMobile ? 'dark' : 'light';
+  //const textStyle = isMobile ? 'dark' : 'light';
 
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" bg={bgStyle} variant={textStyle} className="navbar">
+      <Navbar collapseOnSelect expand="lg" bg={bgStyle} variant="dark" className="navbar">
         <Container>
-          <Image
-            src={HubLogo}
-            width="70px"
-            className="img-fluid"
-            onClick={() => {
-              console.log(isMobile);
-            }}
-          ></Image>
+          <Image src={HubLogo} width="70px" className="img-fluid"></Image>
           <Navbar.Brand className="el-5" href="#home">
-            THE HUB AUBG
+            <strong>THE HUB AUBG</strong>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">

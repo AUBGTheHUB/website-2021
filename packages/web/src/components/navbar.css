@@ -5,3 +5,7 @@
 .link-text{
     font-size: large;
 }
+
+.navbar {
+    z-index: 2;
+}
