@@ -12,14 +12,7 @@ const Navigation = () => {
     <>
       <Navbar collapseOnSelect expand="lg" bg={bgStyle} variant="dark" className="navbar">
         <Container>
-          <Image
-            src={HubLogo}
-            width="70px"
-            className="img-fluid"
-            onClick={() => {
-              console.log(isMobile);
-            }}
-          ></Image>
+          <Image src={HubLogo} width="70px" className="img-fluid"></Image>
           <Navbar.Brand className="el-5" href="#home">
             THE HUB AUBG
           </Navbar.Brand>
