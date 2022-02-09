@@ -2,6 +2,7 @@
     background-image: linear-gradient(to bottom right, rgb(21,76,121), rgb(118,181,197));
     height: 100vh;
     background-size: cover;
+    overflow: hidden;
 }
 
 .hubzie{
