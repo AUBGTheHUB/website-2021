@@ -5,8 +5,9 @@ import './navbar.css';
 import { useMediaQuery } from 'react-responsive';
 import { useState } from 'react';
 import MobileCards from './mobileCards';
+import { stateChanging } from './stateChangerTracker';
 
-const Navigation = () => {
+const Navigation = (stateChangeNumber: any) => {
   const isMobile = useMediaQuery({ query: '(max-width: 1000px)' });
   const bgStyle = isMobile ? 'dark' : 'transparent';
   const cdStyle = isMobile ? 'cardStyleHidden' : 'cardStyle';
@@ -15,11 +16,20 @@ const Navigation = () => {
   const [name, changeName] = useState('about_preslide');
   const nameDefiner = () => {
     if (name == 'about_preslide') {
+      stateChanging.stateChangeTracker = 1;
       changeName('about_slide');
     } else if (name == 'about_slide') {
       changeName('about_backslide');
     } else if (name == 'about_backslide') {
       changeName('about_slide');
+    }
+  };
+
+  const returnAboutPreslide = () => {
+    if (stateChanging.stateChangeTracker == 0) {
+      changeName('about_preslide');
+    } else if (stateChanging.stateChangeTracker != 0) {
+      changeName('about_backslide');
     }
   };
 
@@ -36,16 +46,28 @@ const Navigation = () => {
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto"></Nav>
               <Nav>
-                <Nav.Link href="#about" className="link-text">
+                <Nav.Link href="#about" className="link-text" onClick={returnAboutPreslide}>
                   About Us
                 </Nav.Link>
-                <Nav.Link href="#team" className="link-text" onClick={nameDefiner}>
+                <Nav.Link
+                  href="#team"
+                  className="link-text"
+                  onClick={() => {
+                    nameDefiner();
+                    console.log(stateChanging.stateChangeTracker);
+                  }}
+                >
                   Team
                 </Nav.Link>
-                <Nav.Link href="#hackaubg4" className="link-text">
+                <Nav.Link href="#hackaubg4" className="link-text" onClick={returnAboutPreslide}>
                   HackAUBG 4.0
                 </Nav.Link>
-                <Nav.Link eventKey={2} className="link-text" href="#Careers">
+                <Nav.Link
+                  eventKey={2}
+                  className="link-text"
+                  href="#Careers"
+                  onClick={returnAboutPreslide}
+                >
                   Career Opportunities
                 </Nav.Link>
               </Nav>

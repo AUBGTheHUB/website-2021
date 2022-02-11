@@ -1,5 +1,5 @@
 .background_image{
-    background-image: linear-gradient(to bottom right, rgb(21,76,121), rgb(118,181,197));
+    background-image: linear-gradient(rgb(21,76,121), rgb(118,181,197));
     height: auto;
     background-size: cover;
     overflow: hidden;
@@ -19,3 +19,17 @@
   top: 0;
   left: 0;
 }
+
+.aboutPage{
+    background-image: linear-gradient(rgb(118,181,197), rgb(21,76,121));
+    height: 80vh;
+}
+
+.all{
+    margin: 0;
+}
+
+.headerText{
+    text-align: center;
+}
+
