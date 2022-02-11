@@ -1,6 +1,6 @@
 .background_image{
     background-image: linear-gradient(to bottom right, rgb(21,76,121), rgb(118,181,197));
-    height: 100vh;
+    height: auto;
     background-size: cover;
     overflow: hidden;
 }
