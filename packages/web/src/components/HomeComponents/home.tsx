@@ -11,31 +11,36 @@ const Home = () => {
   const isMobile = useMediaQuery({ query: '(max-width: 1000px)' });
   const particlesSize = isMobile ? 20 : 55;
   return (
-    <div className="background_image">
-      <Particles
-        params={{
-          fpsLimit: 60,
-          particles: {
-            color: {
-              value: '#000'
-            },
-            number: {
-              value: particlesSize
-            },
-            links: {
-              enable: true,
-              color: '#000',
-              distance: 150
-            },
-            move: {
-              enable: true
+    <div className="all">
+      <div className="background_image">
+        <Particles
+          params={{
+            fpsLimit: 60,
+            particles: {
+              color: {
+                value: '#000'
+              },
+              number: {
+                value: particlesSize
+              },
+              links: {
+                enable: true,
+                color: '#000',
+                distance: 150
+              },
+              move: {
+                enable: true
+              }
             }
-          }
-        }}
-      />
-      <Navigation></Navigation>
-      <TextBody></TextBody>
-      <Image src={Hubzie} className="hubzie"></Image>
+          }}
+        />
+        <Navigation></Navigation>
+        <TextBody></TextBody>
+        <Image src={Hubzie} className="hubzie"></Image>
+      </div>
+      <div className="aboutPage">
+        <h1 className="headerText">Working</h1>
+      </div>
     </div>
   );
 };
