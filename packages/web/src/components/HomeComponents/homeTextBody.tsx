@@ -14,7 +14,7 @@ const TextBody = () => {
           Check out our upcoming Hackathon!
         </Button>
       </Container>
-      <Image className="logo" src={logoSVG} />
+      <Image src={logoSVG} className="logo"></Image>
     </Container>
   );
 };
