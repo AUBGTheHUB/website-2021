@@ -1,15 +1,15 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import { connect } from 'mongoose';
-
-import routes from './routes/routes';
+import {eventRoutes} from '../v1/events/events';
 
 dotenv.config({ path: `${__dirname}/.env` });
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.use(routes);
+app.use(express.json());
+app.use(eventRoutes);
 
 if (!process.env.MONGO_URI) {
   console.log('.env not loaded');

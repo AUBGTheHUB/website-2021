@@ -6,11 +6,11 @@ export interface EventInterface extends Document {
   location : string;
   startDate : Date;
   endDate : Date;
-  img : Buffer; 
+  img : Buffer;
 }
 
 const EventSchema : Schema = new Schema ({
- 
+
   title : {type: String, required : true},
   description : {type: String, required : true},
   location : {type : String, required : true},
