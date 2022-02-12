@@ -7,7 +7,7 @@ import { useState } from 'react';
 import MobileCards from './mobileCards';
 import { stateChanging } from './stateChangerTracker';
 
-const Navigation = (stateChangeNumber: any) => {
+const Navigation = () => {
   const isMobile = useMediaQuery({ query: '(max-width: 1000px)' });
   const bgStyle = isMobile ? 'dark' : 'transparent';
   const cdStyle = isMobile ? 'cardStyleHidden' : 'cardStyle';
@@ -39,7 +39,7 @@ const Navigation = (stateChangeNumber: any) => {
         <Navbar collapseOnSelect expand="lg" bg={bgStyle} variant="dark" className="navbar">
           <Container>
             <Image src={HubLogo} width="70px" className="img-fluid"></Image>
-            <Navbar.Brand className="el-5" href="#home">
+            <Navbar.Brand className="el-5" href="/">
               THE HUB AUBG
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
