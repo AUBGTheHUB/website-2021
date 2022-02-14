@@ -24,7 +24,7 @@ The Web package includes the frontend of the website which utilizes `ReactJS` an
 ---
 ## Setup
 To install all dependencies, simply run `yarn` in the root directory of the project.
-For the API package, you need to have a `.env` file containing the needed environmental variables for the backend to work. (Needs to be located in `packages/api`)
+For the API package, you need to have a `.env` file containing the needed environmental variables for the backend to work. (Needs to be located in `packages/api/src`)
 
 ---
 ## Useful Yarn commands
