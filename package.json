@@ -10,6 +10,8 @@
   },
   "scripts": {
     "api:dev": "yarn workspace api start:dev",
-    "frontend:dev": "yarn workspace web start"
+    "frontend:dev": "yarn workspace web start",
+    "lint:api": "yarn workspace api lint",
+    "lint:web": "yarn workspace web lint"
   }
 }
