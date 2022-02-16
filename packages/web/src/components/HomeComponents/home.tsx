@@ -47,7 +47,7 @@ const Home = () => {
         <TextBody></TextBody>
         <Image src={Hubzie} className="hubzie"></Image>
       </div>
-      <div className="aboutPage">
+      <div id="about" className="aboutPage">
         <div className="aboutUsPage">
           <h3>About Us</h3>
           <p>
