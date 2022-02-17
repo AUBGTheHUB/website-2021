@@ -24,6 +24,8 @@
     "react-scripts": "5.0.0",
     "react-tsparticles": "^1.40.2",
     "styled-components": "^5.3.3",
+    "tsparticles": "^1.41.2",
+    "tsparticles-preset-triangles": "^1.41.2",
     "typescript": "^4.5.4",
     "web-vitals": "^2.1.3"
   },

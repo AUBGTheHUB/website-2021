@@ -9175,10 +9175,22 @@ tslib@^2.0.3:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
   integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
 
+tsparticles-preset-triangles@^1.41.2:
+  version "1.41.2"
+  resolved "https://registry.yarnpkg.com/tsparticles-preset-triangles/-/tsparticles-preset-triangles-1.41.2.tgz#63c697cc5a47af555c29fe494900a30cba06581b"
+  integrity sha512-VgaraGxcvzVXYRNxGZ58DQIaM0ucz4E0N3iBl7oqGXk6S3cLAprDA+Gx+j257bld3dgVIWyqRo66ouigM5CVww==
+  dependencies:
+    tsparticles "^1.41.2"
+
 tsparticles@^1.40.2:
   version "1.40.2"
   resolved "https://registry.yarnpkg.com/tsparticles/-/tsparticles-1.40.2.tgz#ea5245576428b4245ebbbef82a1b379f3e0f961d"
   integrity sha512-EU+YnBibI5GD8QUZLYyG7U4p3AWQfzVyPuXXCQMhuqtiN8GConmYHHrFWjrRisduOK7ayLckRHnNpPQ3PcHYSQ==
+
+tsparticles@^1.41.2:
+  version "1.41.2"
+  resolved "https://registry.yarnpkg.com/tsparticles/-/tsparticles-1.41.2.tgz#eee9c706ef128c84b928f411704463f8f885b925"
+  integrity sha512-DWnttSF4adMlvKWMTXuP0BvKEGXuwamatgzgEKp7nF4YqHzejjKySGeUpmEDCKAR0BnsmatYNZ+8cU8eMrTFjw==
 
 tsutils@^3.21.0:
   version "3.21.0"
