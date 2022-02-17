@@ -19,6 +19,10 @@ const Home = () => {
   const isMobile = useMediaQuery({ query: '(max-width: 1000px)' });
   const particlesSize = isMobile ? 20 : 55;
 
+  const options = {
+    preset: 'triangles'
+  };
+
   return (
     <div className="all">
       <div className="background_image">
@@ -26,22 +30,122 @@ const Home = () => {
           params={{
             fpsLimit: 60,
             particles: {
-              color: {
-                value: '#000'
-              },
               number: {
-                value: particlesSize
+                value: 45,
+                density: {
+                  enable: true,
+                  value_area: 800
+                }
               },
-              links: {
+              color: {
+                value: '#000',
+                animation: {
+                  enable: true,
+                  speed: 10,
+                  sync: true
+                }
+              },
+              shape: {
+                type: 'circle',
+                stroke: {
+                  width: 0,
+                  color: '#000000'
+                },
+                polygon: {
+                  nb_sides: 5
+                },
+                image: {
+                  src: 'https://cdn.matteobruni.it/images/particles/github.svg',
+                  width: 100,
+                  height: 100
+                }
+              },
+              opacity: {
+                value: 0.5,
+                random: false,
+                anim: {
+                  enable: false,
+                  speed: 0.5,
+                  opacity_min: 0.1,
+                  sync: false
+                }
+              },
+              size: {
+                value: 3,
+                random: true,
+                anim: {
+                  enable: false,
+                  speed: 5,
+                  size_min: 1,
+                  sync: false
+                }
+              },
+              line_linked: {
                 enable: true,
-                color: '#000',
-                distance: 150
+                distance: 100,
+                color: 'random',
+                opacity: 0.4,
+                width: 1,
+                triangles: {
+                  enable: true,
+                  color: '#000',
+                  opacity: 0.1
+                }
               },
               move: {
-                enable: true
+                enable: true,
+                speed: 6,
+                direction: 'none',
+                random: false,
+                straight: false,
+                out_mode: 'out',
+                attract: {
+                  enable: false,
+                  rotateX: 600,
+                  rotateY: 1200
+                }
               }
-            }
+            },
+            interactivity: {
+              detect_on: 'canvas',
+              events: {
+                onhover: {
+                  enable: true,
+                  mode: 'repulse'
+                },
+                onclick: {
+                  enable: true,
+                  mode: 'push'
+                },
+                resize: true
+              },
+              modes: {
+                grab: {
+                  distance: 400,
+                  line_linked: {
+                    opacity: 1
+                  }
+                },
+                bubble: {
+                  distance: 400,
+                  size: 40,
+                  duration: 2,
+                  opacity: 0.8
+                },
+                repulse: {
+                  distance: 200
+                },
+                push: {
+                  particles_nb: 4
+                },
+                remove: {
+                  particles_nb: 2
+                }
+              }
+            },
+            retina_detect: true
           }}
+          options={options}
         />
         <Navigation></Navigation>
         <TextBody></TextBody>
@@ -98,8 +202,8 @@ const Home = () => {
               </div>
               <div className="data">
                 <p>
-                  <a href="tel:+359 878 766 981" className="linkStyle">
-                    +359 878 766 981
+                  <a href="tel:+359892963652" className="linkStyle">
+                    +359 89 2963652
                   </a>
                 </p>
                 <p>
@@ -112,17 +216,17 @@ const Home = () => {
             </div>
             <div className="Socials">
               <p>
-                <a href="./">
+                <a href="https://www.facebook.com/TheHubAUBG">
                   <AiOutlineFacebook className="socialLogos" />
                 </a>
               </p>
               <p>
-                <a href="./">
+                <a href="https://www.instagram.com/thehubaubg/?hl=en./">
                   <AiOutlineInstagram className="socialLogos" />
                 </a>
               </p>
               <p>
-                <a href="./">
+                <a href="https://www.linkedin.com/company/the-hub-aubg/">
                   <AiOutlineLinkedin className="socialLogos"></AiOutlineLinkedin>
                 </a>
               </p>
