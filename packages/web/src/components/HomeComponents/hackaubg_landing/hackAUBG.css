@@ -1,3 +1,11 @@
+.all{
+    height: fit-content;
+    width: 100vw;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
 .paddedLeft{
     padding-right: 0.5rem;
 }
@@ -5,10 +13,10 @@
 .landing{
     background-color: black;
     position: absolute;
-    background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
-    overflow: hiddden;
+    margin: 0;
+    padding: 0;
 }
 
 .textBody{
@@ -16,15 +24,28 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 50%;
-    left: 30%;
-    transform: translate(-40%, -50%);
+    left: 15%;
+    top: 30%;
     justify-content: center;
+    /* white-space: pre-wrap;       Webkit */    
+    /* white-space: -moz-pre-wrap; /* Firefox */     
+    /* white-space: -pre-wrap;     /* Opera <7 */    
+    /* white-space: -o-pre-wrap;   /* Opera 7 */     
+    /* word-wrap: break-word;      /* IE */ 
 }
+
+.navbar{
+    position: absolute;
+    width: 100vw;
+    z-index: 1;
+}
+
+
 
 .textHead{
     padding-bottom: 0.5rem;
     font-size: xxx-large;
+
     color: royalblue;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
@@ -50,6 +71,207 @@
     color: royalblue;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+.registerButton{
+    position: relative;
+    right: 0;
+}
+
+
+@media only screen and (max-width: 600px){
+    .textBody{
+        left: 15px;
+        top: 15%;
+    }
+    .textHead{
+        font-size: large;
+        font-weight: bold;
+    }
+    @media only screen and (max-width: 300px){
+        .textBody{
+            top: 30%;
+        }
+        .textHead{
+            font-size: small;
+        }
+        .textDate{
+            font-size: small;
+        }
+        .textDesc{
+            font-size: small;
+        }
+        .textReg{
+            font-size: small;
+        }
+    }
+}
+
+.aboutHack{
+    background-color: rgb(242,242,242);
+    position: absolute;
+    margin: 0;
+    top: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutHeader{
+    padding-top: 4rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.aboutText{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.howToParticipateHeader{
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.journeyh3{
+    padding-bottom: 1.5rem;
+}
+
+.journeyp{
+    color: black;
+}
+
+.firstStep{
+    padding-top: 5rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.fsImage{
+    margin: 0;
+}
+
+.secondStep{
+    padding-top: 5rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.thirdStep{
+    padding-top: 5rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.fourthStep{
+    padding-top: 5rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 5rem;
+}
+
+
+
+.FSH{
+    margin: 0;
+    font-size: x-large;
+    color: royalblue;
+    font-weight: bold;
+}
+
+.SSH{
+    margin: 0;
+    font-size: x-large;
+    color: royalblue;
+    font-weight: bold;
+}
+
+.TSH{
+    margin: 0;
+    font-size: x-large;
+    color: royalblue;
+    font-weight: bold;
+}
+
+.FRH{
+    margin: 0;
+    font-size: x-large;
+    color: royalblue;
+    font-weight: bold;
+}
+
+.PutTogether{
+    font-size: large;
+    font-weight: bold;
+}
+
+.smFS{
+    width: 50%;
+    margin: 0;
+}
+
+.smSS{
+    width: 50%;
+    height: 100%;
+}
+
+.smTS{
+    width: 50%;
+    height: 100%;
+}
+
+.smFRS{
+    width: 50%;
+    height: 100%;
+}
+
+.ssImage{
+    margin: 0;
+}
+
+.tsImage{
+    margin: 0;
+}
+
+.videoRecap{
+    background-color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+
+.videoHeader{
+    color: royalblue;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.video{
+    width: 100%;
+    height: 500px;
+}
+
+
 
 
 
