@@ -1,6 +1,6 @@
 .all{
     height: fit-content;
-    width: 100vw;
+    max-width: 100vw;
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@
     background-color: black;
     position: absolute;
     min-height: 100vh;
-    width: 100vw;
+    width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -36,7 +36,7 @@
 
 .navbar{
     position: absolute;
-    width: 100vw;
+    width: 100%;
     z-index: 1;
 }
 
@@ -111,7 +111,7 @@
     position: absolute;
     margin: 0;
     top: 100vh;
-    width: 100vw;
+    max-width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -124,8 +124,9 @@
 }
 
 .aboutText{
-    margin-left: 20%;
-    margin-right: 20%;
+    padding-left: 20%;
+    padding-right: 20%;
+    max-width: 100vw;
 }
 
 .howToParticipateHeader{
@@ -151,9 +152,7 @@
     justify-content: space-evenly;
 }
 
-.fsImage{
-    margin: 0;
-}
+
 
 .secondStep{
     padding-top: 5rem;
@@ -227,6 +226,7 @@
 }
 
 .smSS{
+    padding-top: 2.5%;
     width: 50%;
     height: 100%;
 }
@@ -241,12 +241,19 @@
     height: 100%;
 }
 
-.ssImage{
-    margin: 0;
-}
-
-.tsImage{
-    margin: 0;
+@media screen and (max-width: 500px){
+    .fsImage{
+        display: none;
+    } 
+    .ssImage{
+        display: none;
+    }
+    .tsImage{
+        display: none;
+    }
+    .frImage{
+        display: none;
+    }
 }
 
 .videoRecap{
@@ -270,6 +277,96 @@
     width: 100%;
     height: 500px;
 }
+
+.usefulLinks{
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.usefulButtons{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.usefulHeader{
+    color: black;
+    font-weight: 400;
+}
+
+.butUL{
+    margin: 1rem;
+}
+
+.butUL:hover{
+    color: royalblue;
+    background-color: white;
+}
+
+.scheduleDiv{
+    padding-top: 0rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.schedImageHolder{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.schedImage{
+}
+
+.schedHeaderText{
+    color: black;
+    font-weight: 400;
+}
+
+.scheduleImage{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.awardSection{
+    padding-top: 5rem;
+    display: flex;
+    background-color: #002448;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.awardsText{
+    color: white;
+    padding-bottom: 2.5rem;
+    font-size: xx-large;
+}
+
+.muchMoreText{
+    padding-top: 2.5rem;
+    color: white;
+    font-size: x-large;
+}
+
+.additionalMuchMoreText{
+    color: white;
+    font-size: larger;
+    margin: 0;
+}
+
+.awardsImage{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
 
 
 
