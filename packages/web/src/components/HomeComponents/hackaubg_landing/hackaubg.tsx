@@ -2,7 +2,6 @@ import React from 'react';
 import { Navbar, Container, Nav, Image, Button } from 'react-bootstrap';
 import HubLogo from './hub_logo.svg';
 import './hackAUBG.css';
-
 const HackAUBG = () => {
   return (
     <div className="all">
@@ -149,6 +148,40 @@ const HackAUBG = () => {
               allowFullScreen
             ></iframe>
           </div>
+          <div className="usefulLinks">
+            <div className="linksPart">
+              <h3 className="usefulHeader">Useful Links for Participant Teams</h3>
+              <div className="usefulButtons">
+                <Button color="primary" className="butUL">
+                  INFO BOOKLET
+                </Button>
+                <Button color="primary" className="butUL">
+                  CLOSED MENTORSHIP SLOTS
+                </Button>
+                <Button color="primary" className="butUL">
+                  DETAILS MENTORS
+                </Button>
+              </div>
+            </div>
+          </div>
+          <div className="scheduleDiv">
+            <h3 className="schedHeaderText">Schedule</h3>
+            <div className="schedImageHolder">
+              <Image className="schedImage" src={process.env.PUBLIC_URL + 'friday.png'}></Image>
+              <Image className="schedImage" src={process.env.PUBLIC_URL + 'saturday.png'}></Image>
+              <Image className="schedImage" src={process.env.PUBLIC_URL + 'sunday.png'}></Image>
+            </div>
+          </div>
+        </div>
+        <div className="awardSection">
+          <h3 className="awardsText">Awards</h3>
+
+          <Image className="awardsImage" src={process.env.PUBLIC_URL + 'awards.png'}></Image>
+          <p className="muchMoreText">And much more!</p>
+          <p className="additionalMuchMoreText">Take part in the games we have prepared!</p>
+          <p className="additionalMuchMoreText">
+            All participants will receive giftbags with swag from The Hub and HackAUBG 4.0 partners!
+          </p>
         </div>
       </div>
     </div>
