@@ -167,9 +167,93 @@ const HackAUBG = () => {
           <div className="scheduleDiv">
             <h3 className="schedHeaderText">Schedule</h3>
             <div className="schedImageHolder">
-              <Image className="schedImage" src={process.env.PUBLIC_URL + 'friday.png'}></Image>
-              <Image className="schedImage" src={process.env.PUBLIC_URL + 'saturday.png'}></Image>
-              <Image className="schedImage" src={process.env.PUBLIC_URL + 'sunday.png'}></Image>
+              <div className="tableOne">
+                <h3>Friday</h3>
+                <table id="customers">
+                  <tr>
+                    <td>6:00 PM</td>
+                    <td>Maria Anders</td>
+                  </tr>
+                  <tr className="trTable">
+                    <td>6:45 PM</td>
+                    <td>Christina Berglund</td>
+                  </tr>
+                  <tr className="trTable">
+                    <td>7:00 PM</td>
+                    <td>Francisco Chang</td>
+                  </tr>
+                  <tr className="trTable">
+                    <td>9:30 PM</td>
+                    <td>Roland Mendel</td>
+                  </tr>
+                  <tr className="trTable">
+                    <td>10:15 PM</td>
+                    <td>Helen Bennett</td>
+                  </tr>
+                  <tr>
+                    <td>12:00 PM</td>
+                    <td>Philip Cramer</td>
+                  </tr>
+                </table>
+              </div>
+              <div className="tableTwo">
+                <h3>Saturday</h3>
+                <table id="customers">
+                  <tr>
+                    <td>12:45 AM</td>
+                    <td>Maria Anders</td>
+                  </tr>
+                  <tr className="trTable">
+                    <td>9:00 AM</td>
+                    <td>Christina Berglund</td>
+                  </tr>
+                  <tr className="trTable">
+                    <td>10:00 AM</td>
+                    <td>Francisco Chang</td>
+                  </tr>
+                  <tr className="trTable">
+                    <td>10:45 AM</td>
+                    <td>Roland Mendel</td>
+                  </tr>
+                  <tr className="trTable">
+                    <td>1:00 PM</td>
+                    <td>Helen Bennett</td>
+                  </tr>
+                  <tr className="trTable">
+                    <td>6:00 PM</td>
+                    <td>Philip Cramer</td>
+                  </tr>
+                  <tr className="trTable">
+                    <td>11:00 PM</td>
+                    <td>Yoshi Tannamuri</td>
+                  </tr>
+                  <tr>
+                    <td>12:00 AM</td>
+                    <td>Giovanni Rovelli</td>
+                  </tr>
+                </table>
+              </div>
+              <div className="tableThree">
+                <h3>Sunday</h3>
+                <table id="customers">
+                  <tr>
+                    <td>00:00 AM</td>
+                    <td>Maria Anders</td>
+                  </tr>
+                  <tr className="trTable">
+                    <td>2:00 PM</td>
+                    <td>Christina Berglund</td>
+                  </tr>
+                  <tr className="trTable">
+                    <td>3:00 PM</td>
+                    <td>Francisco Chang</td>
+                  </tr>
+                  <tr>
+                    <td>5:30 PM</td>
+                    <td>Roland Mendel</td>
+                  </tr>
+                </table>
+              </div>
             </div>
           </div>
         </div>
