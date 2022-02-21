@@ -317,10 +317,42 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 2rem;
 }
 
 .schedImage{
+}
+
+#customers{
+    color: gray;
+}
+
+.trTable{
+    border-bottom: solid 2px gray;
+    border-top: solid 2px gray;
+}
+
+table td + td{
+    border-left: 2px solid gray;
+}
+
+table td {
+    padding: 10px;
+}
+
+.tableOne {
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.tableTwo{
+    padding-bottom: 1.5rem;
+}
+
+.tableThree{
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
 }
 
 .schedHeaderText{
