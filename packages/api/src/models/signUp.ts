@@ -1,6 +1,6 @@
-import mongoose, {Schema, Document} from "mongoose";
+import mongoose, { Schema, Document } from 'mongoose';
 
-export interface SignUpInterface extends Document{
+export interface SignUpInterface extends Document {
   fullName: string;
   email: string;
   hasTeam: boolean;
@@ -21,26 +21,26 @@ export interface SignUpInterface extends Document{
   jobOffersConsent: boolean;
 }
 
-const SignUpSchema : Schema = new Schema({
-  fullName: {type: String, required: true},
-  email: {type: String, required: true},
-  hasTeam: {type: Boolean, required: true},
-  teamName: {type: String, required: true},
-  age: {type: Number, required: true},
-  location: {type: String, required: true},
-  school: {type: String, required: true},
-  source: {type:String, requried: true},
-  participatedBefore: {type: Boolean, required: true},
-  hackathons: {type: String, required: true},
-  experience: {type: Boolean, required: true},
-  programmingLevel: {type: String, required: true},
-  strongestSides: {type: String, required: true},
-  tSize: {type:String, required: true},
-  lookingForInternship: {type:String, required: true},
-  jobInterests: {type:String, required: true},
-  infoConsent: {type: Boolean, required: true},
-  jobOffersConsent: {type:Boolean, required: true}
+const SignUpSchema: Schema = new Schema({
+  fullName: { type: String, required: true },
+  email: { type: String, required: true },
+  hasTeam: { type: Boolean, required: true },
+  teamName: { type: String, required: true },
+  age: { type: Number, required: true },
+  location: { type: String, required: true },
+  school: { type: String, required: true },
+  source: { type: String, requried: true },
+  participatedBefore: { type: Boolean, required: true },
+  hackathons: { type: String, required: true },
+  experience: { type: Boolean, required: true },
+  programmingLevel: { type: String, required: true },
+  strongestSides: { type: String, required: true },
+  tSize: { type: String, required: true },
+  lookingForInternship: { type: String, required: true },
+  jobInterests: { type: String, required: true },
+  infoConsent: { type: Boolean, required: true },
+  jobOffersConsent: { type: Boolean, required: true }
 });
 
-const SignUp = mongoose.model<SignUpInterface>("SignUp", SignUpSchema);
+const SignUp = mongoose.model<SignUpInterface>('SignUp', SignUpSchema);
 export default SignUp;

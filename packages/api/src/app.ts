@@ -1,8 +1,8 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import { connect } from 'mongoose';
-import {eventRoutes} from '../v1/events/events';
-import {signUpRoutes} from '../v1/signup/signUp';
+import { eventRoutes } from '../v1/events/events';
+import { signUpRoutes } from '../v1/signup/signUp';
 
 dotenv.config({ path: `${__dirname}/.env` });
 
