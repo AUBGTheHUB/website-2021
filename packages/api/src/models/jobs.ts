@@ -20,5 +20,5 @@ const JobSchema: Schema = new Schema ({
   socialMedia: {type: [String], required: false}
 });
 
-const Event = mongoose.model<JobInterface>("Job", JobSchema);
-export default Event;
+const Job = mongoose.model<JobInterface>("Job", JobSchema);
+export default Job;
