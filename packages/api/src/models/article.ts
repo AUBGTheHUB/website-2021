@@ -7,12 +7,12 @@ export interface ArticleInterface extends Document {
   createdOn: Date; 
 }
 
-const EventSchema: Schema = new Schema({
+const ArticleSchema: Schema = new Schema({
   title: {type: String, required:true},
   author: {type: String, required: true},
   articleBody: {type: String, required: true},
   createdOn: {type: Date, required: true}
 });
 
-const Event = mongoose.model<ArticleInterface>("Article", EventSchema);
-export default Event;
+const Article = mongoose.model<ArticleInterface>("Article", ArticleSchema);
+export default Article;
