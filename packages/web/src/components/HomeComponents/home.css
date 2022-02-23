@@ -97,12 +97,14 @@
     border-right: 0;
     border-top: 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .iconsContacts{
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .icons{
