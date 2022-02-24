@@ -65,7 +65,7 @@ const Home = () => {
                 random: false,
                 anim: {
                   enable: false,
-                  speed: 0.5,
+                  speed: 2,
                   opacity_min: 0.1,
                   sync: false
                 }
@@ -94,7 +94,7 @@ const Home = () => {
               },
               move: {
                 enable: true,
-                speed: 6,
+                speed: 3,
                 direction: 'none',
                 random: false,
                 straight: false,
