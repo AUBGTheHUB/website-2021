@@ -1,0 +1,136 @@
+.background_image{
+    background-image: linear-gradient(rgb(21,76,121), rgb(118,181,197));
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.hubzie{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#tsparticles {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+}
+
+.aboutPage{
+    background-color: rgb(246, 249, 252);
+    position: relative;
+    width: 100vw;
+}
+
+.headerText{
+    text-align: center;
+}
+
+.aboutUsPage{
+    font-family: 'Assistant';
+    padding-top: 2.5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    position: relative;
+    font-size: small;
+    background-color: transparent;
+    text-align: center;
+    padding-bottom: 2.5rem;
+}
+
+.aboutEventsPage{
+    font-size: small;
+    text-align: center;
+    font-family: 'Assistant';
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 4rem;
+}
+
+@media only screen and (max-width: 900px){
+    .aboutUsPage{
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .aboutEventsPage{
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .aboutUsPage{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .aboutEventsPage{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+.hubFooter{
+    padding: 2rem;
+    background-color: rgb(21, 76, 121);
+    color: white;
+    width: 100%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.trademark {
+    border-color: white;
+    border-style: solid;
+    border: 0.5px;
+    margin: 0;
+}
+
+.ContactUs {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    border: white;
+    border-style: solid;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconsContacts{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.icons{
+    padding-right: 1rem;
+}
+
+.removeMargin{
+    margin: 0;
+}
+
+.linkStyle{
+    color: white;
+}
+
+.linkStyle:hover{
+    color: silver;
+}
+
+.socialLogos{
+    color: white;
+    height: 4vh;
+    width: 4vh;
+}
+
+.Socials{
+    padding-right: 2rem;
+}
+
+.all{
+    overflow: hidden;
+}

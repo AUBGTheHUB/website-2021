@@ -1,0 +1,130 @@
+.el-5 {
+  font-size: large;
+}
+
+.link-text {
+  font-size: large;
+}
+
+.navbar {
+  z-index: 4;
+}
+
+.about_preslide {
+  background-color: white;
+  position: relative;
+  left: 120%;
+  top: 0;
+}
+
+.about_backslide {
+  background-color: white;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  -webkit-animation: slideback 0.5s forwards;
+  -webkite-animation-delay: 0s;
+  animation: slideback 0.5s forwards;
+  animation-delay: 0s;
+  opacity: 0.95;
+}
+
+.about_slide {
+  background-color: white; 
+  position: relative;
+  top: 0;
+  left: 100%;
+  z-index: 4;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 0s;
+  animation: slide 0.5s forwards;
+  animation-delay: 0s;
+  opacity: 0.95;
+  overflow: visible;
+}
+
+@-webkit-keyframes slide {
+  100% {
+    left: 0%;
+  }
+}
+
+@keyframes slide {
+  100% {
+    left: 0%;
+  }
+}
+
+@keyframes slideback {
+  100% {
+    left: 100%;
+  }
+}
+
+@-webkit-keyframes slideback {
+  100% {
+    left: 100%;
+  }
+}
+
+.main_container {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+.cardContainer{
+  padding-top: 1.5rem;
+  position: relative;
+  display: flex;
+  height: 100vh;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 1000px){
+  .cardContainer{
+    padding-top: 0px;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  .cardContainer{
+    padding-top: 6rem;
+  }
+}
+
+@media only screen and (max-width: 300px){
+  .cardContainer{
+    position: absolute;
+  }
+}
+
+.cardStyle{
+  width: 25vw;
+  height: calc(100vh - 76px);
+  z-index: 1;
+}
+
+.card{
+  height: 100%;
+  border: 0;
+}
+
+.cardStyleHidden{
+  display: none;
+}
+
+@media only screen and (max-height: 815px){
+  .imageSized{
+    display: none;
+  }
+}
+
+@media only screen and (min-height: 980px){
+  .cardContainer{
+    padding-top: 5rem;
+  }
+}
