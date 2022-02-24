@@ -1,5 +1,38 @@
+import dotenv from 'dotenv';
+import nodemailer from 'nodemailer';
 import { Request, Response } from 'express';
 import SignUp from '../models/signup';
+
+dotenv.config({ path: `${__dirname}/../.env` });
+const hostname = process.env.EMAIL_HOSTNAME;
+const username = process.env.EMAIL_USR;
+const pswd = process.env.EMAIL_PSW;
+const emailPort = Number(process.env.EMAIL_PORT);
+
+async function sendEmail(emailTo: string, subject: string , htmlFile: object){
+  const transporter = nodemailer.createTransport({
+    host: hostname,
+    port: emailPort,
+    secure: true,
+    requireTLS: true,
+    auth:{
+      user: username,
+      pass: pswd,
+    },
+    logger:true
+  });
+
+  const info = await transporter.sendMail({
+    from: "The Hub",
+    to: emailTo,
+    subject: subject,
+    text: "",
+    html: htmlFile,
+    headers: {'x-myheader':'test header'},
+  });
+
+  console.log("Message sent: %s", info.response);
+}
 
 export const createSignUp = async (req: Request, res: Response) => {
   const signUpData = req.body;
@@ -17,6 +50,8 @@ export const createSignUp = async (req: Request, res: Response) => {
         s.save((err) => { // callback in case save fails, in which case log and return 500
           if(err) return res.status(500).json({ message: err });
         });
+
+        sendEmail(signUpData.email,"Thank you for signing up for HackAUBG", {path: './src/templates/hackathon.html'});
 
         return res.status(201).json({ // if reached here, then save was fine, return 201 CREATED
           signup: s
