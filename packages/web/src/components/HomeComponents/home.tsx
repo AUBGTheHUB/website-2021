@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, Button } from 'react-bootstrap';
+import { Image, Button, Card } from 'react-bootstrap';
 import Navigation from './navbar';
 import './home.css';
 import TextBody from './homeTextBody';
@@ -185,6 +185,87 @@ const Home = () => {
           <Button variant="primary" size="sm">
             Check out our upcoming events!
           </Button>
+          <div className="teamsSection" id="team">
+            <h2>Teams</h2>
+            <div className="cardContainer">
+              <div>
+                <Card className="cardStyle">
+                  <Card.Img variant="top" src="/pr-department.png" className="imageSized" />
+                  <Card.Body>
+                    <Card.Title>Public Relations</Card.Title>
+                    <Card.Text>
+                      The financial powerhouse to all our initiatives! Manage sponsorships with
+                      international companies and scout for the best collaboration opportunities in
+                      and outside of AUBG!
+                    </Card.Text>
+                    <Button variant="primary" href="publicrelationsdepartment">
+                      Check out the team!
+                    </Button>
+                  </Card.Body>
+                </Card>
+              </div>
+              <div>
+                <Card className="cardStyle">
+                  <Card.Img
+                    variant="top"
+                    src={process.env.PUBLIC_URL + '/design-community.png'}
+                    className="imageMarketing"
+                  />
+                  <Card.Body>
+                    <Card.Title>Marketing</Card.Title>
+                    <Card.Text>
+                      Want to run marketing campaigns and develop social media management skills? To
+                      create eye-catching designs and digital visuals? Unlock the door to you
+                      creative potential and make your ideas come to life!
+                    </Card.Text>
+                    <Button variant="primary" href="marketingdepartment">
+                      Check out the team!
+                    </Button>
+                  </Card.Body>
+                </Card>
+              </div>
+              <div>
+                <Card className="cardStyle">
+                  <Card.Img
+                    variant="top"
+                    src={process.env.PUBLIC_URL + '/development-department.png'}
+                    className="imageSized"
+                  />
+                  <Card.Body>
+                    <Card.Title>Development</Card.Title>
+                    <Card.Text>
+                      Practive and perfect your programming skils! Take part in external real-world
+                      projects, work with the best professionals and grow your arsenal of tech
+                      abilities!
+                    </Card.Text>
+                    <Button variant="primary" href="developmentdepartment">
+                      Check out the team!
+                    </Button>
+                  </Card.Body>
+                </Card>
+              </div>
+              <div>
+                <Card className="cardStyle">
+                  <Card.Img
+                    variant="top"
+                    src={process.env.PUBLIC_URL + '/logistics-department.png'}
+                    className="imageSized"
+                  />
+                  <Card.Body>
+                    <Card.Title>Logistics</Card.Title>
+                    <Card.Text>
+                      Precision, Preparation, Planning! Learn how to pull off the impossible and
+                      more: logistics of on-campus events, fieldtrips, people management, Team
+                      Buildings!
+                    </Card.Text>
+                    <Button variant="primary" href="logisticsdepartment">
+                      Check out the team!
+                    </Button>
+                  </Card.Body>
+                </Card>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="hubFooter">
           <div className="ContactUs">

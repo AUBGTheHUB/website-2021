@@ -59,7 +59,7 @@ const Navigation = () => {
                 >
                   Team
                 </Nav.Link>
-                <Nav.Link href="#hackaubg4" className="link-text" onClick={returnAboutPreslide}>
+                <Nav.Link href="/hackaubg" className="link-text" onClick={returnAboutPreslide}>
                   HackAUBG 4.0
                 </Nav.Link>
                 <Nav.Link
@@ -74,78 +74,6 @@ const Navigation = () => {
             </Navbar.Collapse>
           </Container>
         </Navbar>
-        <div className={name}>
-          <div className="cardContainer">
-            <MobileCards></MobileCards>
-            <div className={cdStyle}>
-              <Card>
-                <Card.Img variant="top" src="/pr-department.png" className="imageSized" />
-                <Card.Body>
-                  <Card.Title>Public Relations</Card.Title>
-                  <Card.Text>
-                    The financial powerhouse to all our initiatives! Manage sponsorships with
-                    international companies and scout for the best collaboration opportunities in
-                    and outside of AUBG!
-                  </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-              </Card>
-            </div>
-            <div className={cdStyle}>
-              <Card>
-                <Card.Img
-                  variant="top"
-                  src={process.env.PUBLIC_URL + '/design-community.png'}
-                  className="imageSized"
-                />
-                <Card.Body>
-                  <Card.Title>Marketing</Card.Title>
-                  <Card.Text>
-                    Want to run marketing campaigns and develop social media management skills? To
-                    create eye-catching designs and digital visuals? Unlock the door to you creative
-                    potential and make your ideas come to life!
-                  </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-              </Card>
-            </div>
-            <div className={cdStyle}>
-              <Card>
-                <Card.Img
-                  variant="top"
-                  src={process.env.PUBLIC_URL + '/development-department.png'}
-                  className="imageSized"
-                />
-                <Card.Body>
-                  <Card.Title>Development</Card.Title>
-                  <Card.Text>
-                    Practive and perfect your programming skils! Take part in external real-world
-                    projects, work with the best professionals and grow your arsenal of tech
-                    abilities!
-                  </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-              </Card>
-            </div>
-            <div className={cdStyle}>
-              <Card>
-                <Card.Img
-                  variant="top"
-                  src={process.env.PUBLIC_URL + '/logistics-department.png'}
-                  className="imageSized"
-                />
-                <Card.Body>
-                  <Card.Title>Logistics</Card.Title>
-                  <Card.Text>
-                    Precision, Preparation, Planning! Learn how to pull off the impossible and more:
-                    logistics of on-campus events, fieldtrips, people management, Team Buildings!
-                  </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-              </Card>
-            </div>
-          </div>
-        </div>
       </div>
     </>
   );
