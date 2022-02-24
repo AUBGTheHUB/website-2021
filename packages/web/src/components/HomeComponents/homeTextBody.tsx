@@ -10,7 +10,7 @@ const TextBody = () => {
         <h1>We are THE HUB</h1>
         <p>Welcome to The Hub - the IT and Innovations club on AUBG campus!</p>
         <p>Join us and make the events, workshops, and projects of your dreams happen!</p>
-        <Button variant="outline-primary" className="hackathonButton">
+        <Button variant="outline-primary" className="hackathonButton" href="hackaubg">
           Check out our upcoming Hackathon!
         </Button>
       </Container>

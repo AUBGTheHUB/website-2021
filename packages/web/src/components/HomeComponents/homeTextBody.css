@@ -6,21 +6,6 @@
   padding-top: 12rem;
 }
 
-.logo {
-  width: 5rem;
-  height: auto;
-  padding-top: 5rem;
-  animation: rotation 6s infinite linear;
-}
-
-@keyframes rotation {
-		from {
-				transform: rotate(0deg);
-		}
-		to {
-				transform: rotate(359deg);
-		}
-}
 
 .textAndLogo {
   display: flex;
