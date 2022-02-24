@@ -97,14 +97,12 @@
     border-right: 0;
     border-top: 0;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .iconsContacts{
     display: flex;
     justify-content: flex-start;
-    flex-wrap: wrap;
 }
 
 .icons{
@@ -135,4 +133,21 @@
 
 .all{
     overflow: hidden;
+}
+
+.teamsSection{
+    padding-top: 4rem;
+}
+
+.cardContainer{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardStyle{
+    max-width: 15rem;
+    margin: 1rem;
 }
