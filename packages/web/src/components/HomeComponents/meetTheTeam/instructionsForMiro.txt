@@ -7,9 +7,5 @@
 
 That's pretty much it! Have fun! 
 
-Ако имаш въпроси ми пиши 
+Ако имаш въпроси ми пиши!
 
-P.S. за да render-неш елемента, трябва да махнеш component-a <HackAUBG> от app.tsx и да сложиш компонента, по който работиш. 
-Примерно, ако работиш в prTeam, отваряш .tsx файла и поглеждаш името на exported константата и я импортваш в app.tsx.
-
-След което в return statement-a на app.tsx пишеш <PRTeam></PRTeam>
