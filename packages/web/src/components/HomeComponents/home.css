@@ -134,3 +134,20 @@
 .all{
     overflow: hidden;
 }
+
+.teamsSection{
+    padding-top: 4rem;
+}
+
+.cardContainer{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardStyle{
+    max-width: 15rem;
+    margin: 1rem;
+}

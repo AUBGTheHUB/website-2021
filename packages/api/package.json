@@ -13,8 +13,10 @@
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""
   },
   "dependencies": {
+    "@types/nodemailer": "^6.4.4",
     "express": "^4.17.2",
-    "mongoose": "6.1.7"
+    "mongoose": "6.1.7",
+    "nodemailer": "^6.7.2"
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
