@@ -8,6 +8,7 @@ import PRTeam from './components/HomeComponents/meetTheTeam/prTeam';
 import DevelopmentTeam from './components/HomeComponents/meetTheTeam/developmentTeam';
 import LogisticsTeam from './components/HomeComponents/meetTheTeam/logisticsTeam';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import RegistrationForm from './components/HomeComponents/registerForm/registrationForm';
 function App() {
   return (
     <BrowserRouter>
@@ -18,6 +19,7 @@ function App() {
         <Route path="marketingdepartment" element={<MarketingTeam></MarketingTeam>}></Route>
         <Route path="developmentdepartment" element={<DevelopmentTeam></DevelopmentTeam>}></Route>
         <Route path="logisticsdepartment" element={<LogisticsTeam></LogisticsTeam>}></Route>
+        <Route path="register" element={<RegistrationForm></RegistrationForm>}></Route>
       </Routes>
     </BrowserRouter>
   );

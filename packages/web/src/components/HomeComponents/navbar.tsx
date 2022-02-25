@@ -31,7 +31,9 @@ const Navigation = () => {
                 <Nav.Link href="/hackaubg" className="link-text">
                   HackAUBG 4.0
                 </Nav.Link>
-                <Nav.Link href="#Careers">Career Opportunities</Nav.Link>
+                <Nav.Link href="#Careers" className="link-text">
+                  Career Opportunities
+                </Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>
