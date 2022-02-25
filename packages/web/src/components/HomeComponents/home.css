@@ -25,6 +25,26 @@
     width: 100vw;
 }
 
+.textAndBody{
+    position: absolute;
+    top: 40%;
+    left: 7.5%;
+    z-index: 2;
+    color: white;
+}
+
+.hackathonButton{
+    background-color: royalblue;
+    color: white;
+}
+
+@media only screen and (max-width: 500px){
+    .textAndBody{
+        top: 30%;
+        left: 2.5%;
+    }
+}
+
 .headerText{
     text-align: center;
 }

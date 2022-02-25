@@ -39,7 +39,9 @@ const HackAUBG = () => {
                 <Nav.Link href="#FAQ" className="link-text">
                   FAQ
                 </Nav.Link>
-                <Button className="registerButton">Register</Button>
+                <Button className="registerButton" href="register">
+                  Register
+                </Button>
               </Nav>
             </Navbar.Collapse>
           </Container>

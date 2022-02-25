@@ -2,7 +2,6 @@ import React from 'react';
 import { Image, Button, Card } from 'react-bootstrap';
 import Navigation from './navbar';
 import './home.css';
-import TextBody from './homeTextBody';
 import Hubzie from './hubzie-the-hub.png';
 import Particles from 'react-tsparticles';
 import { useMediaQuery } from 'react-responsive';
@@ -17,7 +16,6 @@ import {
 
 const Home = () => {
   const isMobile = useMediaQuery({ query: '(max-width: 1000px)' });
-  const particlesSize = isMobile ? 20 : 55;
 
   const options = {
     preset: 'triangles'
@@ -148,7 +146,14 @@ const Home = () => {
           options={options}
         />
         <Navigation></Navigation>
-        <TextBody></TextBody>
+        <div className="textAndBody">
+          <h1>We are THE HUB</h1>
+          <p>Welcome to The Hub - the IT and Innovations club on AUBG campus!</p>
+          <p>Join us and make the events, workshops, and projects of your dreams happen!</p>
+          <Button variant="outline-primary" className="hackathonButton" href="hackaubg">
+            Check out our upcoming Hackathon!
+          </Button>
+        </div>
         <Image src={Hubzie} className="hubzie"></Image>
       </div>
       <div id="about" className="aboutPage">
