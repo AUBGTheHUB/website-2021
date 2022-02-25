@@ -7,7 +7,7 @@ dotenv.config({ path: `${__dirname}/../.env` });
 const hostname = process.env.EMAIL_HOSTNAME;
 const username = process.env.EMAIL_USR;
 const pswd = process.env.EMAIL_PSW;
-const emailPort = Number(process.env.EMAIL_PORT);
+const emailPort = Number(process.env.EMAIL_PORT) | 465;
 
 async function sendEmail(emailTo: string, subject: string , htmlFile: object){
   const transporter = nodemailer.createTransport({
@@ -23,7 +23,7 @@ async function sendEmail(emailTo: string, subject: string , htmlFile: object){
   });
 
   const info = await transporter.sendMail({
-    from: "The Hub",
+    from: `The Hub <${username}>`,
     to: emailTo,
     subject: subject,
     text: "",
