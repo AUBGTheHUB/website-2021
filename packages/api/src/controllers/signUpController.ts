@@ -1,7 +1,7 @@
 import dotenv from 'dotenv';
 import nodemailer from 'nodemailer';
 import { Request, Response } from 'express';
-import SignUp from '../models/signup';
+import SignUp from '../models/signUp';
 
 dotenv.config({ path: `${__dirname}/../.env` });
 const hostname = process.env.EMAIL_HOSTNAME;
