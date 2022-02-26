@@ -3,6 +3,7 @@ import { Navbar, Container, Card, Nav, Image, Button } from 'react-bootstrap';
 import HubLogo from './hub_logo.svg';
 import './hackAUBG.css';
 import { GoLocation } from 'react-icons/go';
+import { useMediaQuery } from 'react-responsive';
 import {
   AiOutlinePhone,
   AiOutlineMail,
@@ -11,10 +12,12 @@ import {
   AiOutlineLinkedin
 } from 'react-icons/ai';
 const HackAUBG = () => {
+  const isMobile = useMediaQuery({ query: '(max-width: 1000px)' });
+  const bgStyle = isMobile ? 'dark' : 'transparent';
   return (
     <div className="all">
       <div className="landing">
-        <Navbar collapseOnSelect expand="xl" bg="dark" variant="dark" className="navbar">
+        <Navbar collapseOnSelect expand="xl" bg={bgStyle} variant="dark" className="navbar">
           <Container>
             <Image src={HubLogo} width="50px" className="paddedLeft"></Image>
             <Navbar.Brand className="el-5" href="/">
@@ -569,6 +572,17 @@ const HackAUBG = () => {
                 <p>
                   <GoLocation /> Address:{' '}
                 </p>
+              </div>
+              <div className="iconsMin">
+                <a href="tel:+359892963652">
+                  <AiOutlinePhone className="minIcons" />
+                </a>
+                <a href="mailto:thehubaubg@gmail.com">
+                  <AiOutlineMail className="minIcons" />
+                </a>
+                <a href="https://www.google.com/maps/place/ul.+%22Svoboda+Bachvarova%22+12,+2700+Southern+Industrial+Zone,+Blagoevgrad/@42.0119036,23.0925089,17z/data=!3m1!4b1!4m5!3m4!1s0x14aaf5ff8c1a6fed:0x2c05f64204be56a2!8m2!3d42.0119036!4d23.0946976">
+                  <GoLocation className="minIcons" />
+                </a>
               </div>
               <div className="data">
                 <p>

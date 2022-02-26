@@ -11,7 +11,8 @@
 }
 
 .landing{
-    background-color: black;
+    background-image: url("website_perhaps.png");
+    background-size: cover;
     position: absolute;
     min-height: 100vh;
     width: 100%;
@@ -26,12 +27,7 @@
     position: absolute;
     left: 15%;
     top: 30%;
-    justify-content: center;
-    /* white-space: pre-wrap;       Webkit */    
-    /* white-space: -moz-pre-wrap; /* Firefox */     
-    /* white-space: -pre-wrap;     /* Opera <7 */    
-    /* white-space: -o-pre-wrap;   /* Opera 7 */     
-    /* word-wrap: break-word;      /* IE */ 
+    justify-content: center; 
 }
 
 .navbar{
@@ -285,6 +281,12 @@
     text-align: center;
 }
 
+@media only screen and (max-width: 500px){
+    .usefulLinks{
+        padding: 0;
+    }
+}
+
 .usefulButtons{
     flex-direction: row;
     flex-wrap: wrap;
@@ -297,7 +299,13 @@
 }
 
 .butUL{
-    margin: 1rem;
+    margin: 0.5rem;
+    
+    white-space: pre-wrap;
+    /* white-space: -moz-pre-wrap; /* Firefox */     
+    /* white-space: -pre-wrap;     /* Opera <7 */    
+    /* white-space: -o-pre-wrap;   /* Opera 7 */     
+    /* word-wrap: break-word;      /* IE */ 
 }
 
 .butUL:hover{
@@ -519,6 +527,19 @@ table td {
     flex-wrap: wrap;
 }
 
+@media only screen and (max-width: 600px){
+    .hubFooter{
+        padding: 0;
+    }
+    .ContantUs{
+        padding-left: 0;
+    }
+    .Socials{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
 .icons{
     padding-right: 1rem;
 }
@@ -550,6 +571,27 @@ table td {
     padding-top: 0.6rem;
 }
 
+.iconsMin{
+    display: none;
+}
+
+@media only screen and (max-width: 600px){
+    .icons{
+        display: none;
+    }
+    .iconsMin{
+        display: flex;
+    }
+    .minIcons{
+        color: white;
+    }
+    .data{
+        display: none;
+    }
+    .removeMargin{
+        text-align: center;
+    }
+}
 
 
 

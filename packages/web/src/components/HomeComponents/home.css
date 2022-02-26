@@ -29,8 +29,14 @@
     position: absolute;
     top: 40%;
     left: 7.5%;
-    z-index: 2;
+    z-index: 1;
     color: white;
+}
+
+@media only screen and (max-width: 400px){
+    .textAndBody{
+        left: 0;
+    }
 }
 
 .hackathonButton{
@@ -117,12 +123,27 @@
     border-right: 0;
     border-top: 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .iconsContacts{
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px){
+    .hubFooter{
+        padding: 0;
+    }
+    .ContantUs{
+        padding-left: 0;
+    }
+    .Socials{
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 .icons{
@@ -149,6 +170,29 @@
 
 .Socials{
     padding-right: 2rem;
+}
+
+
+.iconsMin{
+    display: none;
+}
+
+@media only screen and (max-width: 600px){
+    .icons{
+        display: none;
+    }
+    .iconsMin{
+        display: flex;
+    }
+    .minIcons{
+        color: white;
+    }
+    .data{
+        display: none;
+    }
+    .removeMargin{
+        text-align: center;
+    }
 }
 
 .all{

@@ -16,7 +16,7 @@ const RegistrationForm = () => {
           <Form.Group className="mb-3" controlId="formEmail">
             <Form.Label>Email address</Form.Label>
             <Form.Control type="email" placeholder="Enter your email" />
-            <Form.Text className="text-muted">
+            <Form.Text className="text-muted-white">
               Registrations with emails which already exist in our system won't be accepted!
             </Form.Text>
           </Form.Group>
@@ -160,6 +160,7 @@ const RegistrationForm = () => {
             </Form.Label>
             <Form.Switch></Form.Switch>
           </Form.Group>
+          <Button className="buttonReg">Register</Button>
         </Form>
       </div>
     </div>
