@@ -273,7 +273,7 @@ const Home = () => {
           </div>
         </div>
         <div className="hubFooter">
-          <div className="ContactUs">
+          <div className="ContactUs" id="ContactUs">
             <div className="iconsContacts">
               <div className="icons">
                 <p>
@@ -285,6 +285,17 @@ const Home = () => {
                 <p>
                   <GoLocation /> Address:{' '}
                 </p>
+              </div>
+              <div className="iconsMin">
+                <a href="">
+                  <AiOutlinePhone className="minIcons" />
+                </a>
+                <a href="">
+                  <AiOutlineMail className="minIcons" />
+                </a>
+                <a href="">
+                  <GoLocation className="minIcons" />
+                </a>
               </div>
               <div className="data">
                 <p>

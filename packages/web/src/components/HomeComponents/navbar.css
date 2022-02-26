@@ -6,8 +6,9 @@
   font-size: large;
 }
 
-.navbar {
-  z-index: 4;
+.navbarNav {
+  position: absolute;
+  z-index: 2;
 }
 
 
@@ -16,6 +17,8 @@
   margin: 0;
   padding: 0;
   width: 100vw;
+  position: relative;
+  z-index: 2;
 }
 
 

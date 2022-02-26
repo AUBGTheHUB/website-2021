@@ -12,7 +12,7 @@ const Navigation = () => {
   return (
     <>
       <div className="main_container">
-        <Navbar collapseOnSelect expand="lg" bg={bgStyle} variant="dark" className="navbar">
+        <Navbar collapseOnSelect expand="lg" bg={bgStyle} variant="dark" className="navbarNav">
           <Container>
             <Image src={HubLogo} width="70px" className="img-fluid"></Image>
             <Navbar.Brand className="el-5" href="/">
