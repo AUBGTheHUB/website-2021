@@ -1,5 +1,5 @@
 .holder{
-    display: flex; 
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 90vw;
@@ -32,4 +32,8 @@
 
 .imageTag{
     border-radius: 5%;
+}
+
+.paddedName{
+  padding-bottom: 0.2rem;
 }
