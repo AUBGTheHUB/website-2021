@@ -19,7 +19,6 @@ export interface SignUpInterface extends Document {
   jobInterests: string;
   infoConsent: boolean;
   jobOffersConsent: boolean;
-  newsletterConsent: boolean;
 }
 
 const SignUpSchema: Schema = new Schema({
@@ -41,7 +40,6 @@ const SignUpSchema: Schema = new Schema({
   jobInterests: { type: String, required: true },
   infoConsent: { type: Boolean, required: true },
   jobOffersConsent: { type: Boolean, required: true },
-  newsletterConsent: {type: Boolean, required: true}
 });
 
 const SignUp = mongoose.model<SignUpInterface>('SignUp', SignUpSchema);
