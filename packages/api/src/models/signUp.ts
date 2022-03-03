@@ -37,7 +37,7 @@ const SignUpSchema: Schema = new Schema({
   programmingLevel: { type: String, required: true },
   strongestSides: { type: String, required: true },
   tSize: { type: String, required: true },
-  lookingForInternship: { type: String, required: true },
+  lookingForInternship: { type: Boolean, required: true },
   jobInterests: { type: String, required: true },
   infoConsent: { type: Boolean, required: true },
   jobOffersConsent: { type: Boolean, required: true },
