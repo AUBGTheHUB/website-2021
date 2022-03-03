@@ -52,7 +52,7 @@ export const createSignUp = async (req: Request, res: Response) => {
           if(err) return res.status(500).json({ message: err });
         });
 
-        sendEmail(signUpData.email,"Thank you for signing up for HackAUBG", {path: './src/templates/hackathon.html'});
+        sendEmail(signUpData.email,"Registration for HackAUBG 4.0", {path: './src/templates/hackathon.html'});
 
         return res.status(201).json({ // if reached here, then save was fine, return 201 CREATED
           signup: s
