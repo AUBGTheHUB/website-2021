@@ -35,6 +35,7 @@ async function sendEmail(emailTo: string, subject: string , htmlFile: object){
 }
 
 export const createSignUp = async (req: Request, res: Response) => {
+  res.header("Access-Control-Allow-Origin", "*");
   const signUpData = req.body;
 
   const s = new SignUp(signUpData);
@@ -59,6 +60,8 @@ export const createSignUp = async (req: Request, res: Response) => {
       });
     })
     .catch((err) => { // catch the failed validate, which is a 400 Bad request
+      console.log(err);
+
       return res.status(400).json({
         message: err
       });
