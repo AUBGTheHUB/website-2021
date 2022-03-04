@@ -156,6 +156,10 @@ const HackAUBG = () => {
             ></iframe>
           </div>
           <div className="usefulLinks">
+            <h2>
+              <em>More info on HackAUBG 4.0 TBA!</em>
+            </h2>
+            {/*
             <div className="linksPart">
               <h3 className="usefulHeader">Useful Links for Participant Teams</h3>
               <div className="usefulButtons">
@@ -266,8 +270,11 @@ const HackAUBG = () => {
         </div>
         <div className="awardSection">
           <h3 className="awardsText">Awards</h3>
-
-          <Image className="awardsImage" src={process.env.PUBLIC_URL + 'awards.png'}></Image>
+          <div className="awardHolderImages">
+            <Image className="awdImageSecond" src={process.env.PUBLIC_URL + 'second.png'}></Image>
+            <Image className="awdImageFirst" src={process.env.PUBLIC_URL + 'first.png'}></Image>
+            <Image className="awdImageThird" src={process.env.PUBLIC_URL + 'third.png'}></Image>
+          </div>
           <p className="muchMoreText">And much more!</p>
           <p className="additionalMuchMoreText">Take part in the games we have prepared!</p>
           <p className="additionalMuchMoreText">
@@ -504,7 +511,7 @@ const HackAUBG = () => {
               <Image className="partnersImages" src={process.env.PUBLIC_URL + 'uber.png'}></Image>
               <Image className="partnersImages" src={process.env.PUBLIC_URL + 'uber.png'}></Image>
               <Image className="partnersImages" src={process.env.PUBLIC_URL + 'uber.png'}></Image>
-            </div>
+            </div> */}
           </div>
           <div className="FAQ" id="FAQ">
             <h3 className="faqTextHeader">FAQ</h3>

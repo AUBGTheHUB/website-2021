@@ -1,8 +1,10 @@
-import React, { SyntheticEvent } from 'react';
+import { SyntheticEvent } from 'react';
 import axios from 'axios';
+import * as React from 'react';
 import './registerForm.css';
 import { Form, Button, Alert } from 'react-bootstrap';
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const RegistrationForm = () => {
   const [teamBlock, setTeamBlock] = useState('notVisible');
@@ -32,6 +34,8 @@ const RegistrationForm = () => {
     jobOffersConsent: false
   });
 
+  const history = useNavigate();
+
   const handleInputChange = (event: any) => {
     const target = event.target;
     const value = target.type === 'checkbox' ? target.checked : target.value;
@@ -54,6 +58,10 @@ const RegistrationForm = () => {
         if (res.status == 201) {
           setMessageShowState(true);
           setMessageState('green');
+          alert('Thank you for registering! Now you will be redirected back.');
+          setTimeout(() => {
+            history('/hackaubg');
+          }, 2000);
         } else {
           setMessageShowState(true);
           setMessageState('red');
@@ -63,6 +71,7 @@ const RegistrationForm = () => {
         console.log(err);
         setMessageShowState(true);
         setMessageState('red');
+        alert('Non-valid information or missed fields');
       });
     console.log(formState);
 
@@ -280,7 +289,18 @@ const RegistrationForm = () => {
                 : 'Your registration was successful!'}
             </Form.Label>
           </Form.Group>
-          <Button type="submit" className="buttonReg">
+          <Button
+            type="submit"
+            className="buttonReg"
+            onClick={() => {
+              if (messageState != 'red') {
+                setTimeout((e) => {
+                  e.preventDefault();
+                  window.location.href = 'hackaubg';
+                }, 1000);
+              }
+            }}
+          >
             Register
           </Button>
         </Form>

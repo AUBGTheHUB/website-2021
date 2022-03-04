@@ -21,6 +21,10 @@
     color: white;
 }
 
+.initialHolder{
+    padding-top: 2.5rem;
+}
+
 .cards{
     margin-top: 2rem;
     margin-bottom: 1rem;
