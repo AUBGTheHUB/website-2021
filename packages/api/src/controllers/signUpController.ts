@@ -4,9 +4,9 @@ import { Request, Response } from 'express';
 import SignUp from '../models/signUp';
 
 dotenv.config({ path: `${__dirname}/../.env` });
-const hostname = process.env.EMAIL_HOSTNAME;
-const username = process.env.EMAIL_USR;
-const pswd = process.env.EMAIL_PSW;
+const hostname = process.env.STMP_HOST;
+const username = process.env.SMTP_USER;
+const pswd = process.env.SMTP_PASS;
 const emailPort = Number(process.env.EMAIL_PORT) | 465;
 
 async function sendEmail(emailTo: string, subject: string , htmlFile: object){

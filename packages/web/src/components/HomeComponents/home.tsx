@@ -182,9 +182,9 @@ const Home = () => {
             partner companies.
           </p>
           <p>Send us your tech event wish-list and we will make it happen!</p>
-          <Button variant="primary" size="sm">
+          {/*<Button variant="primary" size="sm">
             Check out our upcoming events!
-          </Button>
+        </Button> */}
           <div className="teamsSection" id="team">
             <h2>Teams</h2>
             <div className="cardContainer">
@@ -215,11 +215,7 @@ const Home = () => {
                     window.location.href = 'marketingdepartment';
                   }}
                 >
-                  <Card.Img
-                    variant="top"
-                    src={process.env.PUBLIC_URL + '/design-community.png'}
-                    className="imageMarketing"
-                  />
+                  <Card.Img variant="top" src="/design-community.png" className="imageMarketing" />
                   <Card.Body>
                     <Card.Title>Marketing</Card.Title>
                     <Card.Text>
@@ -240,7 +236,7 @@ const Home = () => {
                 >
                   <Card.Img
                     variant="top"
-                    src={process.env.PUBLIC_URL + '/development-department.png'}
+                    src="/development-department.png"
                     className="imageSized"
                   />
                   <Card.Body>
@@ -261,11 +257,7 @@ const Home = () => {
                     window.location.href = 'logisticsdepartment';
                   }}
                 >
-                  <Card.Img
-                    variant="top"
-                    src={process.env.PUBLIC_URL + '/logistics-department.png'}
-                    className="imageSized"
-                  />
+                  <Card.Img variant="top" src="/logistics-department.png" className="imageSized" />
                   <Card.Body>
                     <Card.Title>Logistics</Card.Title>
                     <Card.Text>

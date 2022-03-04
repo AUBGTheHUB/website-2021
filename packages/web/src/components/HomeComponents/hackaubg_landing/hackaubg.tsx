@@ -30,7 +30,7 @@ const HackAUBG = () => {
                 <Nav.Link href="#AboutHack" className="link-text">
                   About
                 </Nav.Link>
-                <Nav.Link href="#Mentors" className="link-text">
+                {/*<Nav.Link href="#Mentors" className="link-text">
                   Mentors
                 </Nav.Link>
                 <Nav.Link href="#Judges" className="link-text">
@@ -38,7 +38,7 @@ const HackAUBG = () => {
                 </Nav.Link>
                 <Nav.Link href="#Partners" className="link-text">
                   Partners
-                </Nav.Link>
+  </Nav.Link>*/}
                 <Nav.Link href="#FAQ" className="link-text">
                   FAQ
                 </Nav.Link>
@@ -53,7 +53,7 @@ const HackAUBG = () => {
           <h1 className="textHead">HackAUBG 4.0</h1>
           <p className="textDate">April 1st-3rd, 2022</p>
           <p className="textDesc">Programming Hackathon in English</p>
-          <p className="textReg">Registration is now open!</p>
+          <p className="textReg">Registration to be opened soon!</p>
         </div>
       </div>
       <div className="aboutHack" id="AboutHack">
@@ -96,10 +96,10 @@ const HackAUBG = () => {
                 competition.{' '}
               </p>
             </div>
-            <Image className="fsImage" src={process.env.PUBLIC_URL + '/Teammates.png'}></Image>
+            <Image className="fsImage" src="/Teammates.png"></Image>
           </div>
           <div className="secondStep">
-            <Image className="ssImage" src={process.env.PUBLIC_URL + '/email.png'}></Image>
+            <Image className="ssImage" src="/email.png"></Image>
             <div className="smSS">
               <p className="SSH">STEP 002</p>
               <p className="PutTogether">Meet The Hub and Prepare</p>
@@ -127,10 +127,10 @@ const HackAUBG = () => {
                 develop, design, and strategize the most amazing software solution!{' '}
               </p>
             </div>
-            <Image className="tsImage" src={process.env.PUBLIC_URL + 'Teamwork.png'}></Image>
+            <Image className="tsImage" src="Teamwork.png"></Image>
           </div>
           <div className="fourthStep">
-            <Image className="frImage" src={process.env.PUBLIC_URL + 'Presentation.png'}></Image>
+            <Image className="frImage" src="Presentation.png"></Image>
             <div className="smFRS">
               <p className="FRH">STEP 004</p>
               <p className="PutTogether">Present and Win</p>
@@ -160,6 +160,9 @@ const HackAUBG = () => {
               <em>More info on HackAUBG 4.0 TBA!</em>
             </h2>
             {/*
+            WARNING -- src props of images should be replaced like that:
+            src={'/image.png'} -> src="/image.png"
+            
             <div className="linksPart">
               <h3 className="usefulHeader">Useful Links for Participant Teams</h3>
               <div className="usefulButtons">
@@ -271,9 +274,9 @@ const HackAUBG = () => {
         <div className="awardSection">
           <h3 className="awardsText">Awards</h3>
           <div className="awardHolderImages">
-            <Image className="awdImageSecond" src={process.env.PUBLIC_URL + 'second.png'}></Image>
-            <Image className="awdImageFirst" src={process.env.PUBLIC_URL + 'first.png'}></Image>
-            <Image className="awdImageThird" src={process.env.PUBLIC_URL + 'third.png'}></Image>
+            <Image className="awdImageSecond" src='second.png'></Image>
+            <Image className="awdImageFirst" src='first.png'></Image>
+            <Image className="awdImageThird" src='third.png'></Image>
           </div>
           <p className="muchMoreText">And much more!</p>
           <p className="additionalMuchMoreText">Take part in the games we have prepared!</p>
@@ -287,7 +290,7 @@ const HackAUBG = () => {
             <Card style={{ width: '15rem' }} className="mentorCard">
               <Card.Img
                 variant="top"
-                src={process.env.PUBLIC_URL + 'placeholder.png'}
+                src='placeholder.png'
                 className="mentorImage"
               />
               <Card.Body>
@@ -301,7 +304,7 @@ const HackAUBG = () => {
             <Card style={{ width: '15rem' }} className="mentorCard">
               <Card.Img
                 variant="top"
-                src={process.env.PUBLIC_URL + 'placeholder.png'}
+                src='placeholder.png'
                 className="mentorImage"
               />
               <Card.Body>
@@ -315,7 +318,7 @@ const HackAUBG = () => {
             <Card style={{ width: '15rem' }} className="mentorCard">
               <Card.Img
                 variant="top"
-                src={process.env.PUBLIC_URL + 'placeholder.png'}
+                src='placeholder.png'
                 className="mentorImage"
               />
               <Card.Body>
@@ -329,7 +332,7 @@ const HackAUBG = () => {
             <Card style={{ width: '15rem' }} className="mentorCard">
               <Card.Img
                 variant="top"
-                src={process.env.PUBLIC_URL + 'placeholder.png'}
+                src='placeholder.png'
                 className="mentorImage"
               />
               <Card.Body>
@@ -343,7 +346,7 @@ const HackAUBG = () => {
             <Card style={{ width: '15rem' }} className="mentorCard">
               <Card.Img
                 variant="top"
-                src={process.env.PUBLIC_URL + 'placeholder.png'}
+                src='placeholder.png'
                 className="mentorImage"
               />
               <Card.Body>
@@ -357,7 +360,7 @@ const HackAUBG = () => {
             <Card style={{ width: '15rem' }} className="mentorCard">
               <Card.Img
                 variant="top"
-                src={process.env.PUBLIC_URL + 'placeholder.png'}
+                src={'/placeholder.png'}
                 className="mentorImage"
               />
               <Card.Body>
@@ -371,7 +374,7 @@ const HackAUBG = () => {
             <Card style={{ width: '15rem' }} className="mentorCard">
               <Card.Img
                 variant="top"
-                src={process.env.PUBLIC_URL + 'placeholder.png'}
+                src={'/placeholder.png'}
                 className="mentorImage"
               />
               <Card.Body>
@@ -385,7 +388,7 @@ const HackAUBG = () => {
             <Card style={{ width: '15rem' }} className="mentorCard">
               <Card.Img
                 variant="top"
-                src={process.env.PUBLIC_URL + 'placeholder.png'}
+                src={'/placeholder.png'}
                 className="mentorImage"
               />
               <Card.Body>
@@ -403,7 +406,7 @@ const HackAUBG = () => {
               <Card style={{ width: '15rem' }} className="judgesCard">
                 <Card.Img
                   variant="top"
-                  src={process.env.PUBLIC_URL + 'placeholder.png'}
+                  src={'/placeholder.png'}
                   className="judgesImage"
                 />
                 <Card.Body>
@@ -418,7 +421,7 @@ const HackAUBG = () => {
               <Card style={{ width: '15rem' }} className="judgesCard">
                 <Card.Img
                   variant="top"
-                  src={process.env.PUBLIC_URL + 'placeholder.png'}
+                  src={'/placeholder.png'}
                   className="judgesImage"
                 />
                 <Card.Body>
@@ -438,7 +441,7 @@ const HackAUBG = () => {
               <Card style={{ width: '15rem' }} className="judgesCard">
                 <Card.Img
                   variant="top"
-                  src={process.env.PUBLIC_URL + 'placeholder.png'}
+                  src={'/placeholder.png'}
                   className="judgesImage"
                 />
                 <Card.Body>
@@ -458,7 +461,7 @@ const HackAUBG = () => {
               <Card style={{ width: '15rem' }} className="judgesCard">
                 <Card.Img
                   variant="top"
-                  src={process.env.PUBLIC_URL + 'placeholder.png'}
+                  src={'/placeholder.png'}
                   className="judgesImage"
                 />
                 <Card.Body>
@@ -478,7 +481,7 @@ const HackAUBG = () => {
               <Card style={{ width: '15rem' }} className="judgesCard">
                 <Card.Img
                   variant="top"
-                  src={process.env.PUBLIC_URL + 'placeholder.png'}
+                  src={'/placeholder.png'}
                   className="judgesImage"
                 />
                 <Card.Body>
@@ -500,17 +503,17 @@ const HackAUBG = () => {
           <div className="sponsorsSection" id="Partners">
             <h3 className="partnersText">Partners</h3>
             <div className="partnersHolders">
-              <Image className="partnersImages" src={process.env.PUBLIC_URL + 'uber.png'}></Image>
-              <Image className="partnersImages" src={process.env.PUBLIC_URL + 'uber.png'}></Image>
-              <Image className="partnersImages" src={process.env.PUBLIC_URL + 'uber.png'}></Image>
-              <Image className="partnersImages" src={process.env.PUBLIC_URL + 'uber.png'}></Image>
+              <Image className="partnersImages" src={'/uber.png'}></Image>
+              <Image className="partnersImages" src={'/uber.png'}></Image>
+              <Image className="partnersImages" src={'/uber.png'}></Image>
+              <Image className="partnersImages" src={'/uber.png'}></Image>
             </div>
             <h3 className="sponsorsText">Sponsors</h3>
             <div className="sponsorsHolders">
-              <Image className="partnersImages" src={process.env.PUBLIC_URL + 'uber.png'}></Image>
-              <Image className="partnersImages" src={process.env.PUBLIC_URL + 'uber.png'}></Image>
-              <Image className="partnersImages" src={process.env.PUBLIC_URL + 'uber.png'}></Image>
-              <Image className="partnersImages" src={process.env.PUBLIC_URL + 'uber.png'}></Image>
+              <Image className="partnersImages" src={'/uber.png'}></Image>
+              <Image className="partnersImages" src={'/uber.png'}></Image>
+              <Image className="partnersImages" src={'/uber.png'}></Image>
+              <Image className="partnersImages" src={'/uber.png'}></Image>
             </div> */}
           </div>
           <div className="FAQ" id="FAQ">
