@@ -52,7 +52,7 @@ const HackAUBG = () => {
         <div className="textBody">
           <h1 className="textHead">HackAUBG 4.0</h1>
           <p className="textDate">April 1st-3rd, 2022</p>
-          <p className="textDesc">Online Programming Hackathon in English</p>
+          <p className="textDesc">Programming Hackathon in English</p>
           <p className="textReg">Registration is now open!</p>
         </div>
       </div>

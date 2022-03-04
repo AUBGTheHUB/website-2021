@@ -83,12 +83,7 @@ const Home = () => {
                 distance: 100,
                 color: 'random',
                 opacity: 0.4,
-                width: 1,
-                triangles: {
-                  enable: true,
-                  color: '#000',
-                  opacity: 0.1
-                }
+                width: 1
               },
               move: {
                 enable: true,
