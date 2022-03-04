@@ -214,4 +214,16 @@
 .cardStyle{
     max-width: 15rem;
     margin: 1rem;
+    min-height: 32rem;
+    background-color: white;
+    border: none;
+    transition: 0.3s;
+    border: 1px;
+    border-color: black;
+}
+
+.cardStyle:hover{
+    /**   box-shadow: 12px 0px 15px 1px rgba(118,181,197), -15px 0px 15px 1px rgba(118,181,197); */
+    box-shadow: 0px 0px 50px rgb(118,181,197);
+
 }
