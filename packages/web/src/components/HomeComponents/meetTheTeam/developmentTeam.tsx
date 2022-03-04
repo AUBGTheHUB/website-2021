@@ -23,11 +23,7 @@ const DevelopmentTeam = () => {
       <div className="initialHolder">
         <div className="holder">
           <Card style={{ width: '18rem' }} className="cards">
-            <Card.Img
-              variant="top"
-              src={process.env.PUBLIC_URL + 'Isma.png'}
-              className="imageTag"
-            />
+            <Card.Img variant="top" src="/Isma.png" className="imageTag" />
             <Card.Body>
               <Card.Title>Ismail - Head</Card.Title>
               <Button className="socialButton" href="https://www.linkedin.com/in/ismayil-mirzali/">
@@ -36,11 +32,7 @@ const DevelopmentTeam = () => {
             </Card.Body>
           </Card>
           <Card style={{ width: '18rem' }} className="cards">
-            <Card.Img
-              variant="top"
-              src={process.env.PUBLIC_URL + 'Nini.png'}
-              className="imageTag"
-            />
+            <Card.Img variant="top" src="/Nini.png" className="imageTag" />
             <Card.Body>
               <Card.Title>Nikolay</Card.Title>
               <Button className="socialButton" href="https://www.linkedin.com/in/nikolayninov/">
@@ -49,11 +41,7 @@ const DevelopmentTeam = () => {
             </Card.Body>
           </Card>
           <Card style={{ width: '18rem' }} className="cards">
-            <Card.Img
-              variant="top"
-              src={process.env.PUBLIC_URL + 'Misho.png'}
-              className="imageTag"
-            />
+            <Card.Img variant="top" src="/Misho.png" className="imageTag" />
             <Card.Body>
               <Card.Title>Mihail</Card.Title>
               <Button className="socialButton" href="https://www.linkedin.com/in/mbozhilov/">
@@ -63,11 +51,7 @@ const DevelopmentTeam = () => {
           </Card>
 
           <Card style={{ width: '18rem' }} className="cards">
-            <Card.Img
-              variant="top"
-              src={process.env.PUBLIC_URL + 'Yana.png'}
-              className="imageTag"
-            />
+            <Card.Img variant="top" src="/Yana.png" className="imageTag" />
             <Card.Body>
               <Card.Title>Yana</Card.Title>
               <Button className="socialButton" href="https://www.linkedin.com/in/yveitsman/">
@@ -77,11 +61,7 @@ const DevelopmentTeam = () => {
           </Card>
 
           <Card style={{ width: '18rem' }} className="cards">
-            <Card.Img
-              variant="top"
-              src={process.env.PUBLIC_URL + 'Petya.png'}
-              className="imageTag"
-            />
+            <Card.Img variant="top" src="/Petya.png" className="imageTag" />
             <Card.Body>
               <Card.Title>Petya</Card.Title>
               <Button
@@ -93,11 +73,7 @@ const DevelopmentTeam = () => {
             </Card.Body>
           </Card>
           <Card style={{ width: '18rem' }} className="cards">
-            <Card.Img
-              variant="top"
-              src={process.env.PUBLIC_URL + 'Stojan.png'}
-              className="imageTag"
-            />
+            <Card.Img variant="top" src="/Stojan.png" className="imageTag" />
             <Card.Body>
               <Card.Title>Stojan</Card.Title>
               <Button
@@ -109,27 +85,16 @@ const DevelopmentTeam = () => {
             </Card.Body>
           </Card>
           <Card style={{ width: '18rem' }} className="cards">
-            <Card.Img
-              variant="top"
-              src={process.env.PUBLIC_URL + 'Sussy.png'}
-              className="imageTag"
-            />
+            <Card.Img variant="top" src="/Sussy.png" className="imageTag" />
             <Card.Body>
               <Card.Title>Kiril</Card.Title>
-              <Button
-                className="socialButton"
-                href="https://www.linkedin.com/in/kristina-borisova-447293142/"
-              >
+              <Button className="socialButton" disabled>
                 Find on LinkedIn
               </Button>
             </Card.Body>
           </Card>
           <Card style={{ width: '18rem' }} className="cards">
-            <Card.Img
-              variant="top"
-              src={process.env.PUBLIC_URL + 'Miro.png'}
-              className="imageTag"
-            />
+            <Card.Img variant="top" src="/Miro.png" className="imageTag" />
             <Card.Body>
               <Card.Title>Miroslav</Card.Title>
               <Button

@@ -1,43 +1,43 @@
-.holder{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 90vw;
-    padding-left: 10vw;
-    justify-content: center;
+.holder {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90vw;
+  padding-left: 10vw;
+  justify-content: center;
 }
 
-.initialHolder{
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-    background-image: linear-gradient(.45deg,#624844, #272020);
-    min-height: 100vh;
+.initialHolder {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(0.45deg, #624844, #272020);
+  min-height: 100vh;
 }
 
-.headerText{
-    padding-top: 1rem;
-    color: white;
+.headerText {
+  padding-top: 1rem;
+  color: white;
 }
 
-.initialHolder{
-    padding-top: 2.5rem;
+.initialHolder {
+  padding-top: 2.5rem;
 }
 
-.cards{
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    border: 0;
-    border-radius: 5%;
+.cards {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border: 0;
+  border-radius: 5%;
 }
 
-.imageTag{
-    border-radius: 5%;
+.imageTag {
+  border-radius: 5%;
 }
 
-.paddedName{
+.paddedName {
   padding-bottom: 0.2rem;
 }

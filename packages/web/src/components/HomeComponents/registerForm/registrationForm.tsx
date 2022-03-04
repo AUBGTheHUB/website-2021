@@ -2,7 +2,7 @@ import { SyntheticEvent } from 'react';
 import axios from 'axios';
 import * as React from 'react';
 import './registerForm.css';
-import { Form, Button, Alert } from 'react-bootstrap';
+import { Form, Button } from 'react-bootstrap';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
@@ -58,10 +58,9 @@ const RegistrationForm = () => {
         if (res.status == 201) {
           setMessageShowState(true);
           setMessageState('green');
-          alert('Thank you for registering! Now you will be redirected back.');
           setTimeout(() => {
             history('/hackaubg');
-          }, 2000);
+          }, 3000);
         } else {
           setMessageShowState(true);
           setMessageState('red');
@@ -71,7 +70,6 @@ const RegistrationForm = () => {
         console.log(err);
         setMessageShowState(true);
         setMessageState('red');
-        alert('Non-valid information or missed fields');
       });
     console.log(formState);
 
@@ -285,7 +283,7 @@ const RegistrationForm = () => {
               visuallyHidden={!messageShowState}
             >
               {messageState == 'red'
-                ? 'An error has occured!'
+                ? 'Non-valid information or empty input fields!'
                 : 'Your registration was successful!'}
             </Form.Label>
           </Form.Group>

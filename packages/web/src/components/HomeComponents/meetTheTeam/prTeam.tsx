@@ -21,11 +21,7 @@ const PRTeam = () => {
       <div className="initialHolder">
         <div className="holder">
           <Card style={{ width: '18rem' }} className="cards">
-            <Card.Img
-              variant="top"
-              src={process.env.PUBLIC_URL + 'Marie.png'}
-              className="imageTag"
-            />
+            <Card.Img variant="top" src="/Marie.png" className="imageTag" />
             <Card.Body>
               <Card.Title>Marie - Head</Card.Title>
 
@@ -38,13 +34,9 @@ const PRTeam = () => {
             </Card.Body>
           </Card>
           <Card style={{ width: '18rem' }} className="cards">
-            <Card.Img
-              variant="top"
-              src={process.env.PUBLIC_URL + 'krisi.png'}
-              className="imageTag"
-            />
+            <Card.Img variant="top" src="/krisi.png" className="imageTag" />
             <Card.Body>
-              <Card.Title>Krisi</Card.Title>
+              <Card.Title>Krisi - President</Card.Title>
               <Button
                 className="socialButton"
                 href="https://www.linkedin.com/in/kristina-borisova-447293142/"
@@ -54,11 +46,7 @@ const PRTeam = () => {
             </Card.Body>
           </Card>
           <Card style={{ width: '18rem' }} className="cards">
-            <Card.Img
-              variant="top"
-              src={process.env.PUBLIC_URL + 'Ivan Asen.png'}
-              className="imageTag"
-            />
+            <Card.Img variant="top" src="/Ivan Asen.png" className="imageTag" />
             <Card.Body>
               <Card.Title>Ivan-Asen</Card.Title>
               <Button
@@ -70,11 +58,7 @@ const PRTeam = () => {
             </Card.Body>
           </Card>
           <Card style={{ width: '18rem' }} className="cards">
-            <Card.Img
-              variant="top"
-              src={process.env.PUBLIC_URL + 'Diana.png'}
-              className="imageTag"
-            />
+            <Card.Img variant="top" src="/Diana.png" className="imageTag" />
             <Card.Body>
               <Card.Title>Diana</Card.Title>
               <Button
@@ -86,11 +70,7 @@ const PRTeam = () => {
             </Card.Body>
           </Card>
           <Card style={{ width: '18rem' }} className="cards">
-            <Card.Img
-              variant="top"
-              src={process.env.PUBLIC_URL + 'Boyanna.png'}
-              className="imageTag"
-            />
+            <Card.Img variant="top" src="/Boyanna.png" className="imageTag" />
             <Card.Body>
               <Card.Title>Boyana</Card.Title>
               <Button
@@ -102,11 +82,7 @@ const PRTeam = () => {
             </Card.Body>
           </Card>
           <Card style={{ width: '18rem' }} className="cards">
-            <Card.Img
-              variant="top"
-              src={process.env.PUBLIC_URL + 'Christiyana.png'}
-              className="imageTag"
-            />
+            <Card.Img variant="top" src="/Christiyana.png" className="imageTag" />
             <Card.Body>
               <Card.Title>Kristiyana</Card.Title>
               <Button
@@ -118,11 +94,7 @@ const PRTeam = () => {
             </Card.Body>
           </Card>
           <Card style={{ width: '18rem' }} className="cards">
-            <Card.Img
-              variant="top"
-              src={process.env.PUBLIC_URL + 'Mariela.png'}
-              className="imageTag"
-            />
+            <Card.Img variant="top" src="/Mariela.png" className="imageTag" />
             <Card.Body>
               <Card.Title>Mariela</Card.Title>
               <Button className="socialButton" href="https://www.linkedin.com/in/mariela-nikolova/">
@@ -131,17 +103,10 @@ const PRTeam = () => {
             </Card.Body>
           </Card>
           <Card style={{ width: '18rem' }} className="cards">
-            <Card.Img
-              variant="top"
-              src={process.env.PUBLIC_URL + 'Tihomir.png'}
-              className="imageTag"
-            />
+            <Card.Img variant="top" src="/Tihomir.png" className="imageTag" />
             <Card.Body>
               <Card.Title>Tihomir</Card.Title>
-              <Button
-                className="socialButton"
-                href="https://www.linkedin.com/in/kristina-borisova-447293142/"
-              >
+              <Button className="socialButton" disabled>
                 Find on LinkedIn
               </Button>
             </Card.Body>
