@@ -11,7 +11,7 @@
 }
 
 .landing{
-    background-image: url("website_perhaps.png");
+    background-image: url("16x9.png");
     background-size: cover;
     position: absolute;
     min-height: 100vh;
@@ -27,7 +27,7 @@
     position: absolute;
     left: 15%;
     top: 30%;
-    justify-content: center; 
+    justify-content: center;
 }
 
 .navbar{
@@ -44,7 +44,7 @@
 
     color: royalblue;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
+
 }
 
 .textDate{
@@ -240,7 +240,7 @@
 @media screen and (max-width: 500px){
     .fsImage{
         display: none;
-    } 
+    }
     .ssImage{
         display: none;
     }
@@ -300,12 +300,12 @@
 
 .butUL{
     margin: 0.5rem;
-    
+
     white-space: pre-wrap;
-    /* white-space: -moz-pre-wrap; /* Firefox */     
-    /* white-space: -pre-wrap;     /* Opera <7 */    
-    /* white-space: -o-pre-wrap;   /* Opera 7 */     
-    /* word-wrap: break-word;      /* IE */ 
+    /* white-space: -moz-pre-wrap; /* Firefox */
+    /* white-space: -pre-wrap;     /* Opera <7 */
+    /* white-space: -o-pre-wrap;   /* Opera 7 */
+    /* word-wrap: break-word;      /* IE */
 }
 
 .butUL:hover{
@@ -400,6 +400,7 @@ table td {
 }
 
 .awardsImage{
+    width: 50%;
     padding-left: 20%;
     padding-right: 20%;
 }
@@ -416,7 +417,7 @@ table td {
 }
 
 .mentorsDiv{
-    display: flex; 
+    display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
@@ -440,7 +441,7 @@ table td {
 }
 
 .judgesDiv{
-    display: flex; 
+    display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
@@ -459,7 +460,7 @@ table td {
 }
 
 .partnersHolders{
-    display: flex; 
+    display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
