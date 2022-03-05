@@ -1,0 +1,4 @@
+.eslint*
+.prettier*
+node_modules
+dist
