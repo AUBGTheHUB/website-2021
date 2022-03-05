@@ -5,7 +5,9 @@ import { connect, connection } from 'mongoose';
 import { eventRoutes } from '../v1/events/events';
 import { signUpRoutes } from '../v1/signup/signUp';
 
-dotenv.config({ path: `${__dirname}/.env` });
+if (process.env.NODE_ENV !== 'production') {
+  dotenv.config({ path: `${__dirname}/.env` });
+}
 
 const app = express();
 const PORT = process.env.PORT || 3000;
