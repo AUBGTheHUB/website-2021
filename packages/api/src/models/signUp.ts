@@ -39,7 +39,7 @@ const SignUpSchema: Schema = new Schema({
   lookingForInternship: { type: Boolean, required: true },
   jobInterests: { type: String, required: false },
   infoConsent: { type: Boolean, required: true },
-  jobOffersConsent: { type: Boolean, required: true },
+  jobOffersConsent: { type: Boolean, required: true }
 });
 
 const SignUp = mongoose.model<SignUpInterface>('SignUp', SignUpSchema);
