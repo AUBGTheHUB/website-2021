@@ -36,6 +36,7 @@ const RegistrationForm = () => {
 
   const history = useNavigate();
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const handleInputChange = (event: any) => {
     const target = event.target;
     const value = target.type === 'checkbox' ? target.checked : target.value;
