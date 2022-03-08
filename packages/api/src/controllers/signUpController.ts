@@ -1,13 +1,11 @@
-import dotenv from 'dotenv';
 import nodemailer from 'nodemailer';
 import { Request, Response } from 'express';
 import SignUp from '../models/signUp';
 
-dotenv.config({ path: `${__dirname}/../.env` });
-const hostname = process.env.STMP_HOST;
-const username = process.env.SMTP_USER;
-const pswd = process.env.SMTP_PASS;
-const emailPort = Number(process.env.EMAIL_PORT) | 465;
+const hostname = process.env.APPSETTING_STMP_HOST;
+const username = process.env.APPSETTING_SMTP_USER;
+const pswd = process.env.APPSETTING_SMTP_PASS;
+const emailPort = Number(process.env.APPSETTING_SMTP_PORT) | 587;
 
 async function sendEmail(emailTo: string, subject: string, htmlFile: object) {
   const transporter = nodemailer.createTransport({

@@ -10,19 +10,19 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.APPSETTING_PORT || 3000;
 
 app.use(cors());
 app.use(express.json());
 app.use(eventRoutes);
 app.use(signUpRoutes);
 
-if (!process.env.MONGO_URI) {
+if (!process.env.CUSTOMCONNSTR_MONGO_URI) {
   console.log('MONGO_URI env var is not set!');
   process.exit(1);
 }
 
-connect(process.env.MONGO_URI)
+connect(process.env.CUSTOMCONNSTR_MONGO_URI)
   .then(() => console.log('Successfully established connection to database...'))
   .catch((err) => console.log(err));
 
