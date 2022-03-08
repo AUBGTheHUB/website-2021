@@ -486,6 +486,9 @@ table td {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .partnersHolders {
@@ -493,15 +496,40 @@ table td {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
+  padding-top: 2rem;
+}
+
+.dro {
+  max-width: 250px;
+  padding-bottom: 1.5rem;
 }
 
 .partnersImages {
-  max-width: 300px;
+  max-width: 15%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 1000px) {
   .partnersImages {
-    max-width: 150px;
+    max-width: 30%;
+  }
+  @media only screen and (max-width: 800px) {
+    .partnersImages {
+      max-width: 40%;
+    }
+    .dro {
+      max-width: 200px;
+    }
+    @media only screen and (max-width: 600px) {
+      .partnersImages {
+        max-width: 50%;
+      }
+      .dro {
+        max-width: 150px;
+      }
+    }
   }
 }
 

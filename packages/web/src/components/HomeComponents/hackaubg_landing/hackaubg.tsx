@@ -31,15 +31,6 @@ const HackAUBG = () => {
                 <Nav.Link href="#AboutHack" className="link-text">
                   About
                 </Nav.Link>
-                {/*<Nav.Link href="#Mentors" className="link-text">
-                  Mentors
-                </Nav.Link>
-                <Nav.Link href="#Judges" className="link-text">
-                  Judges
-                </Nav.Link>
-                <Nav.Link href="#Partners" className="link-text">
-                  Partners
-  </Nav.Link>*/}
                 <Nav.Link href="#FAQ" className="link-text">
                   FAQ
                 </Nav.Link>
@@ -157,13 +148,14 @@ const HackAUBG = () => {
               allowFullScreen
             ></iframe>
           </div>
-          <div className="usefulLinks">
+          {/* <div className="usefulLinks">
             <h2>
               <em>More info on HackAUBG 4.0 TBA!</em>
             </h2>
-            {/*
+            {/** 
             WARNING -- src props of images should be replaced like that:
             src={'/image.png'} -> src="/image.png"
+
 
             <div className="linksPart">
               <h3 className="usefulHeader">Useful Links for Participant Teams</h3>
@@ -179,8 +171,8 @@ const HackAUBG = () => {
                 </Button>
               </div>
             </div>
-          </div>
-          <div className="scheduleDiv">
+          </div> */}
+          {/*<div className="scheduleDiv">
             <h3 className="schedHeaderText">Schedule</h3>
             <div className="schedImageHolder">
               <div className="tableOne">
@@ -271,14 +263,14 @@ const HackAUBG = () => {
                 </table>
               </div>
             </div>
-          </div>
+</div> */}
         </div>
         <div className="awardSection">
           <h3 className="awardsText">Awards</h3>
           <div className="awardHolderImages">
-            <Image className="awdImageSecond" src='second.png'></Image>
-            <Image className="awdImageFirst" src='first.png'></Image>
-            <Image className="awdImageThird" src='third.png'></Image>
+            <Image className="awdImageSecond" src="second.png"></Image>
+            <Image className="awdImageFirst" src="first.png"></Image>
+            <Image className="awdImageThird" src="third.png"></Image>
           </div>
           <p className="muchMoreText">And much more!</p>
           <p className="additionalMuchMoreText">Take part in the games we have prepared!</p>
@@ -286,15 +278,12 @@ const HackAUBG = () => {
             All participants will receive giftbags with swag from The Hub and HackAUBG 4.0 partners!
           </p>
         </div>
+        {/** 
         <div className="mentorsSection" id="Mentors">
           <h3 className="mentorsText">Mentors</h3>
           <div className="mentorsDiv">
             <Card style={{ width: '15rem' }} className="mentorCard">
-              <Card.Img
-                variant="top"
-                src='placeholder.png'
-                className="mentorImage"
-              />
+              <Card.Img variant="top" src="placeholder.png" className="mentorImage" />
               <Card.Body>
                 <Card.Title className="textCardTitle">Card Title</Card.Title>
                 <Card.Text className="textCardBio">
@@ -304,11 +293,7 @@ const HackAUBG = () => {
               </Card.Body>
             </Card>
             <Card style={{ width: '15rem' }} className="mentorCard">
-              <Card.Img
-                variant="top"
-                src='placeholder.png'
-                className="mentorImage"
-              />
+              <Card.Img variant="top" src="placeholder.png" className="mentorImage" />
               <Card.Body>
                 <Card.Title className="textCardTitle">Card Title</Card.Title>
                 <Card.Text className="textCardBio">
@@ -318,11 +303,7 @@ const HackAUBG = () => {
               </Card.Body>
             </Card>
             <Card style={{ width: '15rem' }} className="mentorCard">
-              <Card.Img
-                variant="top"
-                src='placeholder.png'
-                className="mentorImage"
-              />
+              <Card.Img variant="top" src="placeholder.png" className="mentorImage" />
               <Card.Body>
                 <Card.Title className="textCardTitle">Card Title</Card.Title>
                 <Card.Text className="textCardBio">
@@ -332,11 +313,7 @@ const HackAUBG = () => {
               </Card.Body>
             </Card>
             <Card style={{ width: '15rem' }} className="mentorCard">
-              <Card.Img
-                variant="top"
-                src='placeholder.png'
-                className="mentorImage"
-              />
+              <Card.Img variant="top" src="placeholder.png" className="mentorImage" />
               <Card.Body>
                 <Card.Title className="textCardTitle">Card Title</Card.Title>
                 <Card.Text className="textCardBio">
@@ -346,11 +323,7 @@ const HackAUBG = () => {
               </Card.Body>
             </Card>
             <Card style={{ width: '15rem' }} className="mentorCard">
-              <Card.Img
-                variant="top"
-                src='placeholder.png'
-                className="mentorImage"
-              />
+              <Card.Img variant="top" src="placeholder.png" className="mentorImage" />
               <Card.Body>
                 <Card.Title className="textCardTitle">Card Title</Card.Title>
                 <Card.Text className="textCardBio">
@@ -360,11 +333,7 @@ const HackAUBG = () => {
               </Card.Body>
             </Card>
             <Card style={{ width: '15rem' }} className="mentorCard">
-              <Card.Img
-                variant="top"
-                src={'/placeholder.png'}
-                className="mentorImage"
-              />
+              <Card.Img variant="top" src={'/placeholder.png'} className="mentorImage" />
               <Card.Body>
                 <Card.Title className="textCardTitle">Card Title</Card.Title>
                 <Card.Text className="textCardBio">
@@ -374,11 +343,7 @@ const HackAUBG = () => {
               </Card.Body>
             </Card>
             <Card style={{ width: '15rem' }} className="mentorCard">
-              <Card.Img
-                variant="top"
-                src={'/placeholder.png'}
-                className="mentorImage"
-              />
+              <Card.Img variant="top" src={'/placeholder.png'} className="mentorImage" />
               <Card.Body>
                 <Card.Title className="textCardTitle">Card Title</Card.Title>
                 <Card.Text className="textCardBio">
@@ -388,11 +353,7 @@ const HackAUBG = () => {
               </Card.Body>
             </Card>
             <Card style={{ width: '15rem' }} className="mentorCard">
-              <Card.Img
-                variant="top"
-                src={'/placeholder.png'}
-                className="mentorImage"
-              />
+              <Card.Img variant="top" src={'/placeholder.png'} className="mentorImage" />
               <Card.Body>
                 <Card.Title className="textCardTitle">Card Title</Card.Title>
                 <Card.Text className="textCardBio">
@@ -406,11 +367,7 @@ const HackAUBG = () => {
             <h3 className="judgesHeaderText">Judges</h3>
             <div className="judgesDiv">
               <Card style={{ width: '15rem' }} className="judgesCard">
-                <Card.Img
-                  variant="top"
-                  src={'/placeholder.png'}
-                  className="judgesImage"
-                />
+                <Card.Img variant="top" src={'/placeholder.png'} className="judgesImage" />
                 <Card.Body>
                   <Card.Title className="textCardTitle">Card Title</Card.Title>
                   <Card.Text className="textCardBio">
@@ -421,11 +378,7 @@ const HackAUBG = () => {
                 </Card.Body>
               </Card>
               <Card style={{ width: '15rem' }} className="judgesCard">
-                <Card.Img
-                  variant="top"
-                  src={'/placeholder.png'}
-                  className="judgesImage"
-                />
+                <Card.Img variant="top" src={'/placeholder.png'} className="judgesImage" />
                 <Card.Body>
                   <Card.Title className="textCardTitle">Card Title</Card.Title>
                   <Card.Text className="textCardBio">
@@ -441,11 +394,7 @@ const HackAUBG = () => {
                 </Card.Body>
               </Card>
               <Card style={{ width: '15rem' }} className="judgesCard">
-                <Card.Img
-                  variant="top"
-                  src={'/placeholder.png'}
-                  className="judgesImage"
-                />
+                <Card.Img variant="top" src={'/placeholder.png'} className="judgesImage" />
                 <Card.Body>
                   <Card.Title className="textCardTitle">Card Title</Card.Title>
                   <Card.Text className="textCardBio">
@@ -461,11 +410,7 @@ const HackAUBG = () => {
                 </Card.Body>
               </Card>
               <Card style={{ width: '15rem' }} className="judgesCard">
-                <Card.Img
-                  variant="top"
-                  src={'/placeholder.png'}
-                  className="judgesImage"
-                />
+                <Card.Img variant="top" src={'/placeholder.png'} className="judgesImage" />
                 <Card.Body>
                   <Card.Title className="textCardTitle">Card Title</Card.Title>
                   <Card.Text className="textCardBio">
@@ -481,11 +426,7 @@ const HackAUBG = () => {
                 </Card.Body>
               </Card>
               <Card style={{ width: '15rem' }} className="judgesCard">
-                <Card.Img
-                  variant="top"
-                  src={'/placeholder.png'}
-                  className="judgesImage"
-                />
+                <Card.Img variant="top" src={'/placeholder.png'} className="judgesImage" />
                 <Card.Body>
                   <Card.Title className="textCardTitle">Card Title</Card.Title>
                   <Card.Text className="textCardBio">
@@ -501,23 +442,32 @@ const HackAUBG = () => {
                 </Card.Body>
               </Card>
             </div>
+          </div> */}
+        <div className="sponsorsSection" id="Partners">
+          <h3 className="partnersText">Partners</h3>
+          <div className="partnersHolders">
+            <Image className="partnersImages" src="/comp_logos/Amplify.png"></Image>
+            <Image className="dro" src="/comp_logos/dro.svg"></Image>
+            <Image className="partnersImages" src="/comp_logos/paysafe.png"></Image>
+            <Image className="partnersImages" src="/comp_logos/vmware.png"></Image>
+            <Image className="partnersImages" src="/comp_logos/creative.png"></Image>
+            <Image className="partnersImages" src="/comp_logos/progress.png"></Image>
+            {/** <Image className="partnersImages" src="/comp_logos/chaos.eps"></Image> */}
+            <Image className="partnersImages" src={'/uber.png'}></Image>
+            {/** bronze */}
+            <Image className="partnersImages" src="/comp_logos/Postlogo.png"></Image>
+            {/** <Image className="partnersImages" src="/comp_logos/Roiti.pdf"></Image> */}
+            <Image className="partnersImages" src="/comp_logos/mentormate.png"></Image>
+            <Image className="partnersImages" src="/comp_logos/axyway.png"></Image>
           </div>
-          <div className="sponsorsSection" id="Partners">
-            <h3 className="partnersText">Partners</h3>
-            <div className="partnersHolders">
-              <Image className="partnersImages" src={'/uber.png'}></Image>
-              <Image className="partnersImages" src={'/uber.png'}></Image>
-              <Image className="partnersImages" src={'/uber.png'}></Image>
-              <Image className="partnersImages" src={'/uber.png'}></Image>
-            </div>
-            <h3 className="sponsorsText">Sponsors</h3>
-            <div className="sponsorsHolders">
-              <Image className="partnersImages" src={'/uber.png'}></Image>
-              <Image className="partnersImages" src={'/uber.png'}></Image>
-              <Image className="partnersImages" src={'/uber.png'}></Image>
-              <Image className="partnersImages" src={'/uber.png'}></Image>
-            </div> */}
+          <h3 className="sponsorsText">Sponsors</h3>
+          {/* <div className="sponsorsHolders"> 
+            <Image className="partnersImages" src={'/uber.png'}></Image>
+            <Image className="partnersImages" src={'/uber.png'}></Image>
+            <Image className="partnersImages" src={'/uber.png'}></Image>
+            <Image className="partnersImages" src={'/uber.png'}></Image>
           </div>
+        </div> */}
           <div className="FAQ" id="FAQ">
             <h3 className="faqTextHeader">FAQ</h3>
             <div className="faqGroup">
@@ -634,6 +584,7 @@ const HackAUBG = () => {
           </div>
         </div>
       </div>
+      //**{' '}
     </div>
   );
 };
