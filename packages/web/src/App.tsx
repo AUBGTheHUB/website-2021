@@ -14,12 +14,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
-        <Route path="hackaubg" element={<HackAUBG></HackAUBG>}></Route>
-        <Route path="publicrelationsdepartment" element={<PRTeam></PRTeam>}></Route>
-        <Route path="marketingdepartment" element={<MarketingTeam></MarketingTeam>}></Route>
-        <Route path="developmentdepartment" element={<DevelopmentTeam></DevelopmentTeam>}></Route>
-        <Route path="logisticsdepartment" element={<LogisticsTeam></LogisticsTeam>}></Route>
-        <Route path="register" element={<RegistrationForm></RegistrationForm>}></Route>
+        <Route path="/hackaubg" element={<HackAUBG></HackAUBG>}></Route>
+        <Route path="/register" element={<RegistrationForm></RegistrationForm>}></Route>
       </Routes>
     </BrowserRouter>
   );
