@@ -12,6 +12,7 @@ if (process.env.NODE_ENV !== 'production') {
 const app = express();
 const PORT = process.env.APPSETTING_PORT || 3000;
 
+app.disable('x-powered-by');
 app.use(cors());
 app.use(express.json());
 app.use(eventRoutes);
