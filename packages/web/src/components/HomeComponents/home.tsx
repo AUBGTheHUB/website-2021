@@ -4,7 +4,6 @@ import Navigation from './navbar';
 import './home.css';
 import Hubzie from './hubzie-the-hub.png';
 import Particles from 'react-tsparticles';
-import { useMediaQuery } from 'react-responsive';
 import { GoLocation } from 'react-icons/go';
 import {
   AiOutlinePhone,
@@ -15,7 +14,6 @@ import {
 } from 'react-icons/ai';
 
 const Home = () => {
-  const isMobile = useMediaQuery({ query: '(max-width: 1000px)' });
   document.title = 'The Hub AUBG';
 
   const options = {
