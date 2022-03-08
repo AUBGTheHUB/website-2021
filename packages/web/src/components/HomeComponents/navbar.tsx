@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Nav, Navbar, Image, Card, Button } from 'react-bootstrap';
+import { Container, Nav, Navbar, Image } from 'react-bootstrap';
 import HubLogo from './resized_hub_logo.png';
 import './navbar.css';
 import { useMediaQuery } from 'react-responsive';

@@ -1,7 +1,6 @@
 import React from 'react';
 import { Card, Button } from 'react-bootstrap';
 import './marketingTeam.css';
-import Navigation from '../navbar';
 import { Container, Navbar } from 'react-bootstrap';
 
 const DevelopmentTeam = () => {

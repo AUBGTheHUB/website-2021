@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Container, Card, Nav, Image, Button } from 'react-bootstrap';
+import { Navbar, Container, Nav, Image, Button } from 'react-bootstrap';
 import HubLogo from './hub_logo.svg';
 import './hackAUBG.css';
 import { GoLocation } from 'react-icons/go';
