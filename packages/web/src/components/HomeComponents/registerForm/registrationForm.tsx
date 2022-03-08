@@ -52,7 +52,7 @@ const RegistrationForm = () => {
 
   const handleSubmit = (event: SyntheticEvent) => {
     axios
-      .post('http://localhost:6969/api/v1/signup', formState)
+      .post('https://hubaubgapi.azurewebsites.net/api/v1/signup', formState)
       .then((res) => {
         console.log(res.status);
         if (res.status == 201) {

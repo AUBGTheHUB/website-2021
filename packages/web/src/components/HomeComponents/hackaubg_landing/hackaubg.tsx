@@ -14,6 +14,7 @@ import {
 const HackAUBG = () => {
   const isMobile = useMediaQuery({ query: '(max-width: 1000px)' });
   const bgStyle = isMobile ? 'dark' : 'transparent';
+  document.title = 'HackAUBG 4.0';
   return (
     <div className="all">
       <div className="landing">
@@ -53,7 +54,7 @@ const HackAUBG = () => {
           <h1 className="textHead">HackAUBG 4.0</h1>
           <p className="textDate">April 1st-3rd, 2022</p>
           <p className="textDesc">Programming Hackathon in English</p>
-          <p className="textReg">Registration to be opened soon!</p>
+          <p className="textReg">Registration is open!</p>
         </div>
       </div>
       <div className="aboutHack" id="AboutHack">
@@ -81,7 +82,7 @@ const HackAUBG = () => {
           <div className="howToParticipateHeader">
             <h3 className="journeyh3">The HackAUBG Journey</h3>
             <p className="journeyp">
-              How to participate in HackAUBG Online Programming Hackathon - HackAUBG 4.0
+              How to participate in HackAUBG, On Ground Programming Hackathon - HackAUBG 4.0
             </p>
           </div>
           <div className="firstStep">
@@ -104,12 +105,12 @@ const HackAUBG = () => {
               <p className="SSH">STEP 002</p>
               <p className="PutTogether">Meet The Hub and Prepare</p>
               <p className="FSHText">
-                Right after you click the 'Register' button youll get an email confirming your
-                place. Then in the following 48 hours you will receive another email from us
-                introducing you to your team facilitator – a member of The Hub who will guide and
-                assist you through everything HackAUBG 3.0. Pro tip: take a few days to research
-                some hackathon strategies, after all, you don’t want to be unprepared for you chance
-                to bring home the prize of 2250 BGN!
+                Right after you click the 'Register' button you'll get an email confirming your
+                place. Then in the following 48 hours, you will receive another email from us
+                introducing you to your team facilitator - a member of The Hub who will guide and
+                assist you through everything HackAUBG 4.0. Pro tip: take a few days to research
+                some hackathon strategies, after all, you don't want to be unprepared for your
+                chance to bring home the prize of 3000 BGN!
               </p>
             </div>
           </div>
@@ -118,12 +119,13 @@ const HackAUBG = () => {
               <p className="TSH">STEP 003</p>
               <p className="PutTogether">Get Hackathoning!</p>
               <p className="FSHText">
-                HackAUBG 3.0 starts on Friday, 26th of February. Since this edition of the hackathon
-                is online, you need to secure a stable online connection and login to the Zoom
-                Opening Ceremony! Each team member needs to be connected, or if you have gathered to
-                code together, let us know in advance! Check out the Schedule below for all the
+                HackAUBG 4.0 starts on Friday, April 1st. This edition of the hackathon is back to
+                being fully on-ground. This means that we will be expecting you in person at the
+                opening ceremony. Be sure to make arrangements for your stay in Blagoevgrad if you
+                are not currently located here. You can always turn to your facilitator and we will
+                be happy to help you arrange your stay. Check out the schedule below for all the
                 details. Your facilitator will be checking in with you to make sure you have access
-                to everything you need. Once the theme is announced, give it all you’ve got to
+                to everything you need. Once the theme is announced, give it all you've got to
                 develop, design, and strategize the most amazing software solution!{' '}
               </p>
             </div>
@@ -135,9 +137,9 @@ const HackAUBG = () => {
               <p className="FRH">STEP 004</p>
               <p className="PutTogether">Present and Win</p>
               <p className="FRHText">
-                The is the home-stretch! You’ve put in the work and now need to blow the judges
-                away! Your task consists of a pretty straight-forward Product Presentation, Software
-                Demo and QA session with the judge panel. Check out the links below to see some of
+                This is the home stretch! You've put in the work and now need to blow the judges
+                away! Your task consists of a pretty straightforward Product Presentation, Software
+                Demo, and Q&A session with the judge panel. Check out the links below to see some of
                 our tips and guides to creating the best project and giving an awesome presentation!
                 Also, find below the Grading Criteria that the judges will use to determine the
                 winners.
@@ -162,7 +164,7 @@ const HackAUBG = () => {
             {/*
             WARNING -- src props of images should be replaced like that:
             src={'/image.png'} -> src="/image.png"
-            
+
             <div className="linksPart">
               <h3 className="usefulHeader">Useful Links for Participant Teams</h3>
               <div className="usefulButtons">
@@ -521,7 +523,7 @@ const HackAUBG = () => {
             <div className="faqGroup">
               <div className="qs">
                 <h3>What is the deadline for registering?</h3>
-                <p>Registration is open until the 9th of March</p>
+                <p>Registration is open until Friday, March 25th.</p>
               </div>
               <div className="qs">
                 <h3>Can I register without a team?</h3>
@@ -554,7 +556,7 @@ const HackAUBG = () => {
                 </h3>
                 <p>
                   Yes, indeed! It will be in the form of a private Facebook group for all the
-                  registered participants. We’ll send you a link with your registration confirmation
+                  registered participants. We'll send you a link with your registration confirmation
                   email.
                 </p>
               </div>
