@@ -533,6 +533,17 @@ table td {
   }
 }
 
+.regFormButton {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .regFormButton {
+    display: block;
+    margin-top: 2rem;
+  }
+}
+
 .FAQ {
   padding-top: 2.5rem;
   display: flex;
