@@ -267,13 +267,12 @@ const RegistrationForm = () => {
             ></Form.Control>
           </Form.Group>
           <Form.Group className="md-3" controlId="getConsent">
-            <Form.Label>Do you mind sharing this information with our sponsors?</Form.Label>
+            <Form.Label>Do you agree to share this information with our sponsors?</Form.Label>
             <Form.Switch name="infoConsent" onChange={handleInputChange}></Form.Switch>
           </Form.Group>
           <Form.Group className="md-3" controlId="getNewsletter">
             <Form.Label>
-              After the event we will be sharing a newsletter with a potential job oppenings. Do you
-              mind sending you information?
+              Would you like to receive our newsletter which includes potential job opportunities?
             </Form.Label>
             <Form.Switch name="jobOffersConsent" onChange={handleInputChange}></Form.Switch>
           </Form.Group>
