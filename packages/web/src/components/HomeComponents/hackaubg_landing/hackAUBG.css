@@ -102,6 +102,17 @@
   }
 }
 
+.regButMob {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .regButMob {
+    display: block;
+    margin-top: 1.5rem;
+  }
+}
+
 .aboutHack {
   background-color: rgb(242, 242, 242);
   position: absolute;
