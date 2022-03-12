@@ -447,24 +447,30 @@ const HackAUBG = () => {
             </div>
           </div> */}
         <div className="sponsorsSection" id="Partners">
-          <h3 className="partnersText">Partners</h3>
+          <h3 className="partnersText">Sponsors</h3>
           <div className="partnersHolders">
-            <Image className="partnersImages" src="/comp_logos/Amplify.png"></Image>
-            <Image className="dro" src="/comp_logos/dro.svg"></Image>
+            <Image className="partnersImages" src="/comp_logos/amplify.png"></Image>
+            <Image className="dro" src="/comp_logos/droxic.png"></Image>
             <Image className="partnersImages" src="/comp_logos/paysafe.png"></Image>
             <Image className="partnersImages" src="/comp_logos/vmware.png"></Image>
-            <Image className="partnersImages" src="/comp_logos/creative.png"></Image>
+            <Image className="partnersImages" src="/comp_logos/creative_assembly.png"></Image>
             <Image className="partnersImages" src="/comp_logos/progress.png"></Image>
-            {/** <Image className="partnersImages" src="/comp_logos/chaos.eps"></Image> */}
-            <Image className="partnersImages" src={'/uber.png'}></Image>
+            <Image className="partnersImages" src="/comp_logos/chaos.png"></Image>
+            <Image className="partnersImages" src="/comp_logos/uber_gold.png"></Image>
             {/** bronze */}
-            <Image className="partnersImages" src="/comp_logos/Postlogo.png"></Image>
-            {/** <Image className="partnersImages" src="/comp_logos/Roiti.pdf"></Image> */}
+            <Image className="partnersImages" src="/comp_logos/postbank.png"></Image>
+            <Image className="partnersImages" src="/comp_logos/roiti.png"></Image>
             <Image className="partnersImages" src="/comp_logos/mentormate.png"></Image>
-            <Image className="partnersImages" src="/comp_logos/axyway.png"></Image>
+            <Image className="partnersImages" src="/comp_logos/axway.png"></Image>
+            <Image className="partnersImages" src="/comp_logos/out2bound.png"></Image>
+            <Image className="partnersImages" src="/comp_logos/weband.png"></Image>
+            <Image className="partnersImages" src="/comp_logos/weichain.png"></Image>
+            <Image className="partnersImages" src="/comp_logos/musalasoft.png"></Image>
+            <Image className="partnersImages" src="/comp_logos/bianor.png"></Image>
+            <Image className="partnersImages" src="/comp_logos/superhosting.png"></Image>
           </div>
-          <h3 className="sponsorsText">Sponsors</h3>
           {/* <div className="sponsorsHolders"> 
+            <h3 className="sponsorsText">Sponsors</h3>
             <Image className="partnersImages" src={'/uber.png'}></Image>
             <Image className="partnersImages" src={'/uber.png'}></Image>
             <Image className="partnersImages" src={'/uber.png'}></Image>
