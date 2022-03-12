@@ -16,8 +16,7 @@ const emailMessage =
     <!-- Required meta tags -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -35,7 +34,7 @@ const emailMessage =
     -moz-border-radius-bottomleft: 90px;
     border-top-left-radius: 72px;
     max-width: 700px;">
-        <p> &nbsp </p>
+        <p> &nbsp; </p>
     </div>
 
     <div class="container"
@@ -47,7 +46,7 @@ const emailMessage =
 		<br />
 		<br />
 		To make sure that you are always well informed and get all the updates around the event on time, join the <b> Official HackAUBG 4.0 Facebook Group:
-                                                <a href="https://www.facebook.com/groups/377774040439928/">
+                                                <a href="https://www.facebook.com/groups/377774040439928/" style="word-break: break-all;">
                                                    https://www.facebook.com/groups/HackAUBG4.0-communication
                                                  </a></b>.
 
@@ -70,10 +69,10 @@ const emailMessage =
         <b>- The Hub AUBG</b>
         <br />
 		<br />
-		<a href="https://www.facebook.com/TheHubAUBG/" target="_blank" title="TheHubAUBG"><img src="https://icon-library.net//images/faceboo-icon/faceboo-icon-23.jpg" width="42px" /></a>
-		<a href="https://www.instagram.com/thehubaubg/" target="_blank" title="TheHubAUBG"><img src="https://icon-library.net//images/instagram-icon-download-free/instagram-icon-download-free-5.jpg" width="31px" /></a>
-		<a href="https://www.linkedin.com/company/the-hub-aubg" target="_blank" title="TheHubAUBG" style="padding-left:8px;"><img src="https://icon-library.net//images/linkin-icon/linkin-icon-15.jpg" width="28px"/></a>
-		<a href="https://www.youtube.com/channel/UChdtBZBvaK9XZurP3GjPDug" target="_blank" title="TheHubAUBG" style="padding-left:8px;"> <img src="https://icon-library.net//images/youtube-download-icon/youtube-download-icon-19.jpg" width="30px" /></a>
+		<a href="https://www.facebook.com/TheHubAUBG/" target="_blank" title="TheHubAUBG"><i class="fa fa-facebook" style="font-size: 25px; padding-right: 10px;"></i></a>
+		<a href="https://www.instagram.com/thehubaubg/" target="_blank" title="TheHubAUBG"><i class="fa fa-instagram" style="font-size: 25px; padding-right: 10px;"></i></a>
+		<a href="https://www.linkedin.com/company/the-hub-aubg" target="_blank" title="TheHubAUBG" style="padding-left:8px;"><i class="fa fa-linkedin" style="font-size: 25px; padding-right: 10px;"></i></a>
+		<a href="https://www.youtube.com/channel/UChdtBZBvaK9XZurP3GjPDug" target="_blank" title="TheHubAUBG" style="padding-left:8px;"><i class="fa fa-youtube" style="font-size: 25px; padding-right: 10px;"></i></a>
 
 		<br />
 		<br />
@@ -90,7 +89,7 @@ const emailMessage =
     border-bottom-right-radius: 72px;
     max-width: 700px;">
         <h5 class="text-center" style="vertical-align: middle;
-    line-height: 72px; color: white; ">Learn &nbsp•&nbsp Innovate &nbsp•&nbsp Inspire</h5>
+    line-height: 72px; color: white; ">Learn &nbsp;•&nbsp; Innovate &nbsp;•&nbsp; Inspire</h5>
     </div>
     </div>
     <div class="container" style="margin-top: 15px; margin-bottom: 15px; max-width: 700px; font-size: 12px;
@@ -98,7 +97,7 @@ const emailMessage =
 					text-align: center;
 					color: black;
                     max-width: 820px">
-        <div class="text-center">Hub International ©, <br />2022</div>
+        <div class="text-center">Hub International &copy;, <br />2022</div>
     </div>
 
     <!-- Optional JavaScript -->
