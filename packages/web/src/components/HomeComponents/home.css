@@ -56,8 +56,7 @@
 }
 
 .aboutUsPage {
-  font-family: 'Assistant';
-  padding-top: 2.5rem;
+  padding-top: 3.25rem;
   padding-left: 10rem;
   padding-right: 10rem;
   position: relative;
@@ -70,7 +69,6 @@
 .aboutEventsPage {
   font-size: medium;
   text-align: center;
-  font-family: 'Assistant';
   padding-left: 10rem;
   padding-right: 10rem;
   padding-bottom: 4rem;

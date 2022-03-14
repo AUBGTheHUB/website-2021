@@ -88,7 +88,7 @@ const HackAUBG = () => {
                 be between 3 and 6 people. However, if you have less, the Hub team will help you
                 link up with other hackers waiting to participate. If the number of registered teams
                 becomes larger than 10, your team will be waitlisted until the last week before the
-                competition.{' '}
+                competition.
               </p>
             </div>
             <Image className="fsImage" src="/Teammates.png"></Image>
@@ -155,7 +155,7 @@ const HackAUBG = () => {
             <h2>
               <em>More info on HackAUBG 4.0 TBA!</em>
             </h2>
-            {/** 
+
             WARNING -- src props of images should be replaced like that:
             src={'/image.png'} -> src="/image.png"
 
@@ -281,7 +281,7 @@ const HackAUBG = () => {
             All participants will receive giftbags with swag from The Hub and HackAUBG 4.0 partners!
           </p>
         </div>
-        {/** 
+        {/* 
         <div className="mentorsSection" id="Mentors">
           <h3 className="mentorsText">Mentors</h3>
           <div className="mentorsDiv">
@@ -593,7 +593,6 @@ const HackAUBG = () => {
           </div>
         </div>
       </div>
-      //**{' '}
     </div>
   );
 };
