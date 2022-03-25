@@ -34,7 +34,7 @@ const HackAUBG = () => {
                 <Nav.Link href="#FAQ" className="link-text">
                   FAQ
                 </Nav.Link>
-                <Button className="registerButton" href="register">
+                <Button className="displayNone" href="register">
                   Register
                 </Button>
               </Nav>
@@ -45,8 +45,8 @@ const HackAUBG = () => {
           <h1 className="textHead">HackAUBG 4.0</h1>
           <p className="textDate">April 1st-3rd, 2022</p>
           <p className="textDesc">Programming Hackathon in English</p>
-          <p className="textReg">Registration is open!</p>
-          <Button className="regButMob" href="/register">
+          <p className="textReg">Registration is closed!</p>
+          <Button className="displayNone" href="/register">
             Register
           </Button>
         </div>
