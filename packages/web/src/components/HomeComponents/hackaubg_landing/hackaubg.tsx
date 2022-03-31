@@ -178,28 +178,24 @@ const HackAUBG = () => {
                 <h3>Friday</h3>
                 <table id="customers">
                   <tr>
-                    <td>6:00 PM</td>
-                    <td>Maria Anders</td>
+                    <td>5:00 PM</td>
+                    <td>Registration and Networking</td>
                   </tr>
                   <tr className="trTable">
-                    <td>6:45 PM</td>
-                    <td>Christina Berglund</td>
+                    <td>7 PM</td>
+                    <td>Opening Ceremony</td>
                   </tr>
                   <tr className="trTable">
-                    <td>7:00 PM</td>
-                    <td>Francisco Chang</td>
+                    <td>8:30 PM</td>
+                    <td>Brainstorming</td>
                   </tr>
                   <tr className="trTable">
                     <td>9:30 PM</td>
-                    <td>Roland Mendel</td>
-                  </tr>
-                  <tr className="trTable">
-                    <td>10:15 PM</td>
-                    <td>Helen Bennett</td>
+                    <td>Pitching</td>
                   </tr>
                   <tr>
-                    <td>12:00 PM</td>
-                    <td>Philip Cramer</td>
+                    <td>10:00 PM</td>
+                    <td>Start</td>
                   </tr>
                 </table>
               </div>
@@ -207,36 +203,36 @@ const HackAUBG = () => {
                 <h3>Saturday</h3>
                 <table id="customers">
                   <tr>
-                    <td>12:45 AM</td>
-                    <td>Maria Anders</td>
+                    <td>9:30 AM</td>
+                    <td>Breakfast</td>
                   </tr>
                   <tr className="trTable">
-                    <td>9:00 AM</td>
-                    <td>Christina Berglund</td>
+                    <td>11:00 AM</td>
+                    <td>Mentor meeting</td>
                   </tr>
                   <tr className="trTable">
-                    <td>10:00 AM</td>
-                    <td>Francisco Chang</td>
-                  </tr>
-                  <tr className="trTable">
-                    <td>10:45 AM</td>
-                    <td>Roland Mendel</td>
+                    <td>11:30 AM</td>
+                    <td>Mentorship start</td>
                   </tr>
                   <tr className="trTable">
                     <td>1:00 PM</td>
-                    <td>Helen Bennett</td>
+                    <td>Lunch and HR sessions</td>
                   </tr>
                   <tr className="trTable">
-                    <td>6:00 PM</td>
-                    <td>Philip Cramer</td>
+                    <td>2:00 PM</td>
+                    <td>Mentorship+Coding</td>
                   </tr>
                   <tr className="trTable">
-                    <td>11:00 PM</td>
-                    <td>Yoshi Tannamuri</td>
+                    <td>7:00 PM</td>
+                    <td>Dinner</td>
+                  </tr>
+                  <tr className="trTable">
+                    <td>8:00 PM</td>
+                    <td>Coding</td>
                   </tr>
                   <tr>
                     <td>12:00 AM</td>
-                    <td>Giovanni Rovelli</td>
+                    <td>Energizer Activity</td>
                   </tr>
                 </table>
               </div>
@@ -244,20 +240,28 @@ const HackAUBG = () => {
                 <h3>Sunday</h3>
                 <table id="customers">
                   <tr>
-                    <td>00:00 AM</td>
-                    <td>Maria Anders</td>
+                    <td>9:30 AM</td>
+                    <td>Breakfast</td>
+                  </tr>
+                  <tr className="trTable">
+                    <td>10:30 AM</td>
+                    <td>Coding</td>
+                  </tr>
+                  <tr className="trTable">
+                    <td>1:00 PM</td>
+                    <td>Presentation, Submission Deadline</td>
+                  </tr>
+                  <tr className="trTable">
+                    <td>1:00 PM</td>
+                    <td>Lunch</td>
                   </tr>
                   <tr className="trTable">
                     <td>2:00 PM</td>
-                    <td>Christina Berglund</td>
-                  </tr>
-                  <tr className="trTable">
-                    <td>3:00 PM</td>
-                    <td>Francisco Chang</td>
+                    <td>Presentations Begin</td>
                   </tr>
                   <tr>
-                    <td>5:30 PM</td>
-                    <td>Roland Mendel</td>
+                    <td>6:30 PM</td>
+                    <td>Award Ceremony</td>
                   </tr>
                 </table>
               </div>
@@ -281,7 +285,14 @@ const HackAUBG = () => {
           <h3 className="mentorsText">Mentors</h3>
           <div className="mentorsDiv">
             <Card style={{ width: '15rem' }} className="mentorCard">
-              <Card.Img variant="top" src="placeholder.png" className="mentorImage" />
+              <Card.Img
+                variant="top"
+                src="placeholder.png"
+                className="mentorImage"
+                onClick={() => {
+                  window.open('https://www.facebook.com/TheHubAUBG');
+                }}
+              />
               <Card.Body>
                 <Card.Title className="textCardTitle">Card Title</Card.Title>
                 <Card.Text className="textCardBio">
