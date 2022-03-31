@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Container, Nav, Image, Button } from 'react-bootstrap';
+import { Navbar, Container, Nav, Image, Button, Card } from 'react-bootstrap';
 import HubLogo from './hub_logo.svg';
 import './hackAUBG.css';
 import { GoLocation } from 'react-icons/go';
@@ -151,14 +151,10 @@ const HackAUBG = () => {
               allowFullScreen
             ></iframe>
           </div>
-          {/* <div className="usefulLinks">
+          <div className="usefulLinks">
             <h2>
               <em>More info on HackAUBG 4.0 TBA!</em>
             </h2>
-
-            WARNING -- src props of images should be replaced like that:
-            src={'/image.png'} -> src="/image.png"
-
 
             <div className="linksPart">
               <h3 className="usefulHeader">Useful Links for Participant Teams</h3>
@@ -174,8 +170,8 @@ const HackAUBG = () => {
                 </Button>
               </div>
             </div>
-          </div> */}
-          {/*<div className="scheduleDiv">
+          </div>
+          <div className="scheduleDiv">
             <h3 className="schedHeaderText">Schedule</h3>
             <div className="schedImageHolder">
               <div className="tableOne">
@@ -266,7 +262,7 @@ const HackAUBG = () => {
                 </table>
               </div>
             </div>
-</div> */}
+          </div>
         </div>
         <div className="awardSection">
           <h3 className="awardsText">Awards</h3>
@@ -281,7 +277,6 @@ const HackAUBG = () => {
             All participants will receive giftbags with swag from The Hub and HackAUBG 4.0 partners!
           </p>
         </div>
-        {/* 
         <div className="mentorsSection" id="Mentors">
           <h3 className="mentorsText">Mentors</h3>
           <div className="mentorsDiv">
@@ -445,38 +440,38 @@ const HackAUBG = () => {
                 </Card.Body>
               </Card>
             </div>
-          </div> */}
-        <div className="sponsorsSection" id="Partners">
-          <h3 className="partnersText">Sponsors</h3>
-          <div className="partnersHolders">
-            <Image className="partnersImages" src="/comp_logos/amplify.png"></Image>
-            <Image className="dro" src="/comp_logos/droxic.png"></Image>
-            <Image className="partnersImages" src="/comp_logos/paysafe.png"></Image>
-            <Image className="partnersImages" src="/comp_logos/vmware.png"></Image>
-            <Image className="partnersImages" src="/comp_logos/creative_assembly.png"></Image>
-            <Image className="partnersImages" src="/comp_logos/progress.png"></Image>
-            <Image className="partnersImages" src="/comp_logos/chaos.png"></Image>
-            <Image className="partnersImages" src="/comp_logos/uber_gold.png"></Image>
-            {/** bronze */}
-            <Image className="partnersImages" src="/comp_logos/postbank.png"></Image>
-            <Image className="partnersImages" src="/comp_logos/roiti.png"></Image>
-            <Image className="partnersImages" src="/comp_logos/mentormate.png"></Image>
-            <Image className="partnersImages" src="/comp_logos/axway.png"></Image>
-            <Image className="partnersImages" src="/comp_logos/out2bound.png"></Image>
-            <Image className="partnersImages" src="/comp_logos/weband.png"></Image>
-            <Image className="partnersImages" src="/comp_logos/weichain.png"></Image>
-            <Image className="partnersImages" src="/comp_logos/musalasoft.png"></Image>
-            <Image className="partnersImages" src="/comp_logos/bianor.png"></Image>
-            <Image className="partnersImages" src="/comp_logos/superhosting.png"></Image>
           </div>
-          {/* <div className="sponsorsHolders"> 
-            <h3 className="sponsorsText">Sponsors</h3>
-            <Image className="partnersImages" src={'/uber.png'}></Image>
-            <Image className="partnersImages" src={'/uber.png'}></Image>
-            <Image className="partnersImages" src={'/uber.png'}></Image>
-            <Image className="partnersImages" src={'/uber.png'}></Image>
+          <div className="sponsorsSection" id="Partners">
+            <h3 className="partnersText">Sponsors</h3>
+            <div className="partnersHolders">
+              <Image className="partnersImages" src="/comp_logos/amplify.png"></Image>
+              <Image className="dro" src="/comp_logos/droxic.png"></Image>
+              <Image className="partnersImages" src="/comp_logos/paysafe.png"></Image>
+              <Image className="partnersImages" src="/comp_logos/vmware.png"></Image>
+              <Image className="partnersImages" src="/comp_logos/creative_assembly.png"></Image>
+              <Image className="partnersImages" src="/comp_logos/progress.png"></Image>
+              <Image className="partnersImages" src="/comp_logos/chaos.png"></Image>
+              <Image className="partnersImages" src="/comp_logos/uber_gold.png"></Image>
+              {/** bronze */}
+              <Image className="partnersImages" src="/comp_logos/postbank.png"></Image>
+              <Image className="partnersImages" src="/comp_logos/roiti.png"></Image>
+              <Image className="partnersImages" src="/comp_logos/mentormate.png"></Image>
+              <Image className="partnersImages" src="/comp_logos/axway.png"></Image>
+              <Image className="partnersImages" src="/comp_logos/out2bound.png"></Image>
+              <Image className="partnersImages" src="/comp_logos/weband.png"></Image>
+              <Image className="partnersImages" src="/comp_logos/weichain.png"></Image>
+              <Image className="partnersImages" src="/comp_logos/musalasoft.png"></Image>
+              <Image className="partnersImages" src="/comp_logos/bianor.png"></Image>
+              <Image className="partnersImages" src="/comp_logos/superhosting.png"></Image>
+            </div>
+            <div className="sponsorsHolders">
+              <h3 className="sponsorsText">Partners</h3>
+              <Image className="partnersImages" src={'/uber.png'}></Image>
+              <Image className="partnersImages" src={'/uber.png'}></Image>
+              <Image className="partnersImages" src={'/uber.png'}></Image>
+              <Image className="partnersImages" src={'/uber.png'}></Image>
+            </div>
           </div>
-        </div> */}
           <div className="FAQ" id="FAQ">
             <h3 className="faqTextHeader">FAQ</h3>
             <div className="faqGroup">
