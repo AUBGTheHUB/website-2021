@@ -176,13 +176,14 @@ const HackAUBG = () => {
               <h3 className="usefulHeader">Useful Links for Participant Teams</h3>
               <div className="usefulButtons">
                 <Button color="primary" className="butUL">
-                  INFO BOOKLET
+                  <a href="/Booklet_Final.pdf" download className="butUL">
+                    BOOKLET
+                  </a>
                 </Button>
                 <Button color="primary" className="butUL">
-                  CLOSED MENTORSHIP SLOTS
-                </Button>
-                <Button color="primary" className="butUL">
-                  DETAILS MENTORS
+                  <a href="#Mentors" className="butUL">
+                    DETAILS MENTORS
+                  </a>
                 </Button>
               </div>
             </div>
