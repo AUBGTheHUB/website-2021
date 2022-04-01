@@ -72,5 +72,6 @@
     "eslint-plugin-react-hooks": "4.3.0",
     "husky": "7.0.4",
     "prettier": "2.5.1"
-  }
+  },
+  "typings": "./index.d.ts"
 }

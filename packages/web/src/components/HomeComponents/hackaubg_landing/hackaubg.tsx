@@ -287,168 +287,186 @@ const HackAUBG = () => {
             <Card style={{ width: '15rem' }} className="mentorCard">
               <Card.Img
                 variant="top"
-                src="placeholder.png"
+                src="andom mitev.png"
                 className="mentorImage"
                 onClick={() => {
-                  window.open('https://www.facebook.com/TheHubAUBG');
+                  window.open(
+                    'https://www.facebook.com/TheHubAUBG/photos/pcb.5057068217686803/5057064861020472'
+                  );
                 }}
               />
-              <Card.Body>
-                <Card.Title className="textCardTitle">Card Title</Card.Title>
-                <Card.Text className="textCardBio">
-                  Some quick example text to build on the card title and make up the bulk of the
-                  card's content.
-                </Card.Text>
-              </Card.Body>
             </Card>
             <Card style={{ width: '15rem' }} className="mentorCard">
-              <Card.Img variant="top" src="placeholder.png" className="mentorImage" />
-              <Card.Body>
-                <Card.Title className="textCardTitle">Card Title</Card.Title>
-                <Card.Text className="textCardBio">
-                  Some quick example text to build on the card title and make up the bulk of the
-                  card's content.
-                </Card.Text>
-              </Card.Body>
+              <Card.Img
+                variant="top"
+                src="Andri ivanov.png"
+                className="mentorImage"
+                onClick={() => {
+                  window.open(
+                    'https://www.facebook.com/TheHubAUBG/photos/pcb.5057068217686803/5057064851020473'
+                  );
+                }}
+              />
             </Card>
             <Card style={{ width: '15rem' }} className="mentorCard">
-              <Card.Img variant="top" src="placeholder.png" className="mentorImage" />
-              <Card.Body>
-                <Card.Title className="textCardTitle">Card Title</Card.Title>
-                <Card.Text className="textCardBio">
-                  Some quick example text to build on the card title and make up the bulk of the
-                  card's content.
-                </Card.Text>
-              </Card.Body>
+              <Card.Img
+                variant="top"
+                src="borislav.png"
+                className="mentorImage"
+                onClick={() =>
+                  window.open(
+                    'https://www.facebook.com/TheHubAUBG/photos/pcb.5057068217686803/5057065054353786'
+                  )
+                }
+              />
             </Card>
             <Card style={{ width: '15rem' }} className="mentorCard">
-              <Card.Img variant="top" src="placeholder.png" className="mentorImage" />
-              <Card.Body>
-                <Card.Title className="textCardTitle">Card Title</Card.Title>
-                <Card.Text className="textCardBio">
-                  Some quick example text to build on the card title and make up the bulk of the
-                  card's content.
-                </Card.Text>
-              </Card.Body>
+              <Card.Img
+                variant="top"
+                src="dimitar glavnikov.png"
+                className="mentorImage"
+                onClick={() =>
+                  window.open(
+                    'https://www.facebook.com/TheHubAUBG/photos/pcb.5057068217686803/5057065004353791'
+                  )
+                }
+              />
             </Card>
             <Card style={{ width: '15rem' }} className="mentorCard">
-              <Card.Img variant="top" src="placeholder.png" className="mentorImage" />
-              <Card.Body>
-                <Card.Title className="textCardTitle">Card Title</Card.Title>
-                <Card.Text className="textCardBio">
-                  Some quick example text to build on the card title and make up the bulk of the
-                  card's content.
-                </Card.Text>
-              </Card.Body>
+              <Card.Img
+                variant="top"
+                src="dimitar Mitkov.png"
+                className="mentorImage"
+                onClick={() =>
+                  window.open(
+                    'https://www.facebook.com/TheHubAUBG/photos/pcb.5057068217686803/5057065051020453'
+                  )
+                }
+              />
             </Card>
             <Card style={{ width: '15rem' }} className="mentorCard">
-              <Card.Img variant="top" src={'/placeholder.png'} className="mentorImage" />
-              <Card.Body>
-                <Card.Title className="textCardTitle">Card Title</Card.Title>
-                <Card.Text className="textCardBio">
-                  Some quick example text to build on the card title and make up the bulk of the
-                  card's content.
-                </Card.Text>
-              </Card.Body>
+              <Card.Img
+                variant="top"
+                src={'/gavril.png'}
+                className="mentorImage"
+                onClick={() =>
+                  window.open(
+                    'https://www.facebook.com/TheHubAUBG/photos/pcb.5057068217686803/5057065197687105'
+                  )
+                }
+              />
             </Card>
             <Card style={{ width: '15rem' }} className="mentorCard">
-              <Card.Img variant="top" src={'/placeholder.png'} className="mentorImage" />
-              <Card.Body>
-                <Card.Title className="textCardTitle">Card Title</Card.Title>
-                <Card.Text className="textCardBio">
-                  Some quick example text to build on the card title and make up the bulk of the
-                  card's content.
-                </Card.Text>
-              </Card.Body>
+              <Card.Img
+                variant="top"
+                src={'/Iskren dimov.png'}
+                className="mentorImage"
+                onClick={() =>
+                  window.open(
+                    'https://www.facebook.com/TheHubAUBG/photos/pcb.5057068217686803/5057065241020434'
+                  )
+                }
+              />
             </Card>
             <Card style={{ width: '15rem' }} className="mentorCard">
-              <Card.Img variant="top" src={'/placeholder.png'} className="mentorImage" />
-              <Card.Body>
-                <Card.Title className="textCardTitle">Card Title</Card.Title>
-                <Card.Text className="textCardBio">
-                  Some quick example text to build on the card title and make up the bulk of the
-                  card's content.
-                </Card.Text>
-              </Card.Body>
+              <Card.Img
+                variant="top"
+                src={'/georgi ganchev.png'}
+                className="mentorImage"
+                onClick={() =>
+                  window.open(
+                    'https://www.facebook.com/TheHubAUBG/photos/pcb.5057068217686803/5057065227687102'
+                  )
+                }
+              />
+            </Card>
+            <Card style={{ width: '15rem' }} className="mentorCard">
+              <Card.Img
+                variant="top"
+                src={'/MArtin.png'}
+                className="mentorImage"
+                onClick={() =>
+                  window.open(
+                    'https://www.facebook.com/TheHubAUBG/photos/pcb.5057068217686803/5057065351020423'
+                  )
+                }
+              />
+            </Card>
+            <Card style={{ width: '15rem' }} className="mentorCard">
+              <Card.Img
+                variant="top"
+                src={'/anton GavrAilov.png'}
+                className="mentorImage"
+                onClick={() =>
+                  window.open(
+                    'https://www.facebook.com/TheHubAUBG/photos/pcb.5057068217686803/5057133851013573'
+                  )
+                }
+              />
             </Card>
           </div>
           <div className="judgesHolder" id="Judges">
             <h3 className="judgesHeaderText">Judges</h3>
             <div className="judgesDiv">
               <Card style={{ width: '15rem' }} className="judgesCard">
-                <Card.Img variant="top" src={'/placeholder.png'} className="judgesImage" />
-                <Card.Body>
-                  <Card.Title className="textCardTitle">Card Title</Card.Title>
-                  <Card.Text className="textCardBio">
-                    Some quick example text to build on the card title and make up the bulk of the
-                    card's content.
-                  </Card.Text>
-                  <Button className="judgesButton">Interviews</Button>
-                </Card.Body>
+                <Card.Img
+                  variant="top"
+                  src={'/Monova.png'}
+                  className="judgesImage"
+                  onClick={() => {
+                    window.open(
+                      'https://www.facebook.com/TheHubAUBG/photos/pcb.5057597960967162/5057589710967987'
+                    );
+                  }}
+                />
               </Card>
               <Card style={{ width: '15rem' }} className="judgesCard">
-                <Card.Img variant="top" src={'/placeholder.png'} className="judgesImage" />
-                <Card.Body>
-                  <Card.Title className="textCardTitle">Card Title</Card.Title>
-                  <Card.Text className="textCardBio">
-                    Some quick example text to build on the card title and make up the bulk of the
-                    card's content.
-                  </Card.Text>
-                  <Button
-                    className="judgesButton"
-                    href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                  >
-                    Interviews
-                  </Button>
-                </Card.Body>
+                <Card.Img
+                  variant="top"
+                  src={'/stoilov.png'}
+                  className="judgesImage"
+                  onClick={() => {
+                    window.open(
+                      'https://www.facebook.com/TheHubAUBG/photos/pcb.5057597960967162/5057589640967994'
+                    );
+                  }}
+                />
               </Card>
               <Card style={{ width: '15rem' }} className="judgesCard">
-                <Card.Img variant="top" src={'/placeholder.png'} className="judgesImage" />
-                <Card.Body>
-                  <Card.Title className="textCardTitle">Card Title</Card.Title>
-                  <Card.Text className="textCardBio">
-                    Some quick example text to build on the card title and make up the bulk of the
-                    card's content.
-                  </Card.Text>
-                  <Button
-                    className="judgesButton"
-                    href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                  >
-                    Interviews
-                  </Button>
-                </Card.Body>
+                <Card.Img
+                  variant="top"
+                  src={'/marinova.png'}
+                  className="judgesImage"
+                  onClick={() => {
+                    window.open(
+                      'https://www.facebook.com/TheHubAUBG/photos/pcb.5057597960967162/5057589644301327'
+                    );
+                  }}
+                />
               </Card>
               <Card style={{ width: '15rem' }} className="judgesCard">
-                <Card.Img variant="top" src={'/placeholder.png'} className="judgesImage" />
-                <Card.Body>
-                  <Card.Title className="textCardTitle">Card Title</Card.Title>
-                  <Card.Text className="textCardBio">
-                    Some quick example text to build on the card title and make up the bulk of the
-                    card's content.
-                  </Card.Text>
-                  <Button
-                    className="judgesButton"
-                    href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                  >
-                    Interviews
-                  </Button>
-                </Card.Body>
+                <Card.Img
+                  variant="top"
+                  src={'/Malchev.png'}
+                  className="judgesImage"
+                  onClick={() => {
+                    window.open(
+                      'https://www.facebook.com/TheHubAUBG/photos/pcb.5057597960967162/5057589637634661'
+                    );
+                  }}
+                />
               </Card>
               <Card style={{ width: '15rem' }} className="judgesCard">
-                <Card.Img variant="top" src={'/placeholder.png'} className="judgesImage" />
-                <Card.Body>
-                  <Card.Title className="textCardTitle">Card Title</Card.Title>
-                  <Card.Text className="textCardBio">
-                    Some quick example text to build on the card title and make up the bulk of the
-                    card's content.
-                  </Card.Text>
-                  <Button
-                    className="judgesButton"
-                    href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                  >
-                    Interviews
-                  </Button>
-                </Card.Body>
+                <Card.Img
+                  variant="top"
+                  src={'/kumanov.png'}
+                  className="judgesImage"
+                  onClick={() => {
+                    window.open(
+                      'https://www.facebook.com/TheHubAUBG/photos/pcb.5057597960967162/5057589634301328'
+                    );
+                  }}
+                />
               </Card>
             </div>
           </div>
