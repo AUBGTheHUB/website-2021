@@ -267,6 +267,54 @@ const HackAUBG = () => {
               </div>
             </div>
           </div>
+
+          <div className="scheduleDiv">
+            <h3 className="schedHeaderText">Grading Criteria</h3>
+            <div className="schedImageHolder">
+              <div className="tableTwo">
+                <table id="customers">
+                  <tr>
+                    <td>
+                      <strong>Complexity of the project (20 points)</strong>
+                    </td>
+                    <td>
+                      <strong>Project Realization (10 points)</strong>
+                    </td>
+                    <td>
+                      <strong>Project Idea (10 points)</strong>
+                    </td>
+                    <td>
+                      <strong>Presentation (10 points)</strong>
+                    </td>
+                  </tr>
+                  <tr className="trTable">
+                    <td>Scale (6p)</td>
+                    <td>Completeness (10p)</td>
+                    <td>Originality (4p)</td>
+                    <td>Demo (5p for Live, 3p for just Code)</td>
+                  </tr>
+                  <tr className="trTable">
+                    <td>Project Interface Design (3p)</td>
+                    <td></td>
+                    <td>Market Research (3p)</td>
+                    <td>Handling criticism (2p)</td>
+                  </tr>
+                  <tr className="trTable">
+                    <td>Relevance and simplicity (8p)</td>
+                    <td></td>
+                    <td>Profitability (3p)</td>
+                    <td>Clarity (3p)</td>
+                  </tr>
+                  <tr>
+                    <td>Scalability (3p)</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="awardSection">
           <h3 className="awardsText">Awards</h3>
