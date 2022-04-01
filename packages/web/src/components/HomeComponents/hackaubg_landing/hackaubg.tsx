@@ -172,7 +172,6 @@ const HackAUBG = () => {
             </div>
           </div>
           <div className="scheduleDiv">
-            <h3 className="schedHeaderText">Schedule</h3>
             <div className="schedImageHolder">
               <div className="tableOne">
                 <h3>Friday</h3>
@@ -199,7 +198,9 @@ const HackAUBG = () => {
                   </tr>
                 </table>
               </div>
+
               <div className="tableTwo">
+                <h3 className="schedHeaderText">Schedule</h3>
                 <h3>Saturday</h3>
                 <table id="customers">
                   <tr>
@@ -208,8 +209,10 @@ const HackAUBG = () => {
                   </tr>
                   <tr className="trTable">
                     <td>11:00 AM</td>
+
                     <td>Mentor meeting</td>
                   </tr>
+
                   <tr className="trTable">
                     <td>11:30 AM</td>
                     <td>Mentorship start</td>
@@ -267,7 +270,211 @@ const HackAUBG = () => {
               </div>
             </div>
           </div>
-
+          <div className="mentorsSection" id="Mentors">
+            <h3 className="mentorsText">Mentors</h3>
+            <div className="mentorsDiv">
+              <Card style={{ width: '15rem' }} className="mentorCard">
+                <Card.Img
+                  variant="top"
+                  src="andom mitev.png"
+                  className="mentorImage"
+                  onClick={() => {
+                    window.open(
+                      'https://www.facebook.com/TheHubAUBG/photos/pcb.5057068217686803/5057064861020472'
+                    );
+                  }}
+                  style={{ cursor: 'pointer' }}
+                />
+              </Card>
+              <Card style={{ width: '15rem' }} className="mentorCard">
+                <Card.Img
+                  variant="top"
+                  src="Andri ivanov.png"
+                  className="mentorImage"
+                  onClick={() => {
+                    window.open(
+                      'https://www.facebook.com/TheHubAUBG/photos/pcb.5057068217686803/5057064851020473'
+                    );
+                  }}
+                  style={{ cursor: 'pointer' }}
+                />
+              </Card>
+              <Card style={{ width: '15rem' }} className="mentorCard">
+                <Card.Img
+                  variant="top"
+                  src="borislav.png"
+                  className="mentorImage"
+                  onClick={() =>
+                    window.open(
+                      'https://www.facebook.com/TheHubAUBG/photos/pcb.5057068217686803/5057065054353786'
+                    )
+                  }
+                  style={{ cursor: 'pointer' }}
+                />
+              </Card>
+              <Card style={{ width: '15rem' }} className="mentorCard">
+                <Card.Img
+                  variant="top"
+                  src="dimitar glavnikov.png"
+                  className="mentorImage"
+                  onClick={() =>
+                    window.open(
+                      'https://www.facebook.com/TheHubAUBG/photos/pcb.5057068217686803/5057065004353791'
+                    )
+                  }
+                  style={{ cursor: 'pointer' }}
+                />
+              </Card>
+              <Card style={{ width: '15rem' }} className="mentorCard">
+                <Card.Img
+                  variant="top"
+                  src="dimitar Mitkov.png"
+                  className="mentorImage"
+                  onClick={() =>
+                    window.open(
+                      'https://www.facebook.com/TheHubAUBG/photos/pcb.5057068217686803/5057065051020453'
+                    )
+                  }
+                  style={{ cursor: 'pointer' }}
+                />
+              </Card>
+              <Card style={{ width: '15rem' }} className="mentorCard">
+                <Card.Img
+                  variant="top"
+                  src={'/gavril.png'}
+                  className="mentorImage"
+                  onClick={() =>
+                    window.open(
+                      'https://www.facebook.com/TheHubAUBG/photos/pcb.5057068217686803/5057065197687105'
+                    )
+                  }
+                  style={{ cursor: 'pointer' }}
+                />
+              </Card>
+              <Card style={{ width: '15rem' }} className="mentorCard">
+                <Card.Img
+                  variant="top"
+                  src={'/Iskren dimov.png'}
+                  className="mentorImage"
+                  onClick={() =>
+                    window.open(
+                      'https://www.facebook.com/TheHubAUBG/photos/pcb.5057068217686803/5057065241020434'
+                    )
+                  }
+                  style={{ cursor: 'pointer' }}
+                />
+              </Card>
+              <Card style={{ width: '15rem' }} className="mentorCard">
+                <Card.Img
+                  variant="top"
+                  src={'/georgi ganchev.png'}
+                  className="mentorImage"
+                  onClick={() =>
+                    window.open(
+                      'https://www.facebook.com/TheHubAUBG/photos/pcb.5057068217686803/5057065227687102'
+                    )
+                  }
+                  style={{ cursor: 'pointer' }}
+                />
+              </Card>
+              <Card style={{ width: '15rem' }} className="mentorCard">
+                <Card.Img
+                  variant="top"
+                  src={'/MArtin.png'}
+                  className="mentorImage"
+                  onClick={() =>
+                    window.open(
+                      'https://www.facebook.com/TheHubAUBG/photos/pcb.5057068217686803/5057065351020423'
+                    )
+                  }
+                  style={{ cursor: 'pointer' }}
+                />
+              </Card>
+              <Card style={{ width: '15rem' }} className="mentorCard">
+                <Card.Img
+                  variant="top"
+                  src={'/anton GavrAilov.png'}
+                  className="mentorImage"
+                  onClick={() =>
+                    window.open(
+                      'https://www.facebook.com/TheHubAUBG/photos/pcb.5057068217686803/5057133851013573'
+                    )
+                  }
+                  style={{ cursor: 'pointer' }}
+                />
+              </Card>
+            </div>
+          </div>
+          <div className="judgesHolder" id="Judges">
+            <h3 className="judgesHeaderText">Judges</h3>
+            <div className="judgesDiv">
+              <Card style={{ width: '15rem' }} className="judgesCard">
+                <Card.Img
+                  variant="top"
+                  src={'/Monova.png'}
+                  className="judgesImage"
+                  onClick={() => {
+                    window.open(
+                      'https://www.facebook.com/TheHubAUBG/photos/pcb.5057597960967162/5057589710967987'
+                    );
+                  }}
+                  style={{ cursor: 'pointer' }}
+                />
+              </Card>
+              <Card style={{ width: '15rem' }} className="judgesCard">
+                <Card.Img
+                  variant="top"
+                  src={'/stoilov.png'}
+                  className="judgesImage"
+                  onClick={() => {
+                    window.open(
+                      'https://www.facebook.com/TheHubAUBG/photos/pcb.5057597960967162/5057589640967994'
+                    );
+                  }}
+                  style={{ cursor: 'pointer' }}
+                />
+              </Card>
+              <Card style={{ width: '15rem' }} className="judgesCard">
+                <Card.Img
+                  variant="top"
+                  src={'/marinova.png'}
+                  className="judgesImage"
+                  onClick={() => {
+                    window.open(
+                      'https://www.facebook.com/TheHubAUBG/photos/pcb.5057597960967162/5057589644301327'
+                    );
+                  }}
+                  style={{ cursor: 'pointer' }}
+                />
+              </Card>
+              <Card style={{ width: '15rem' }} className="judgesCard">
+                <Card.Img
+                  variant="top"
+                  src={'/Malchev.png'}
+                  className="judgesImage"
+                  onClick={() => {
+                    window.open(
+                      'https://www.facebook.com/TheHubAUBG/photos/pcb.5057597960967162/5057589637634661'
+                    );
+                  }}
+                  style={{ cursor: 'pointer' }}
+                />
+              </Card>
+              <Card style={{ width: '15rem' }} className="judgesCard">
+                <Card.Img
+                  variant="top"
+                  src={'/kumanov.png'}
+                  className="judgesImage"
+                  onClick={() => {
+                    window.open(
+                      'https://www.facebook.com/TheHubAUBG/photos/pcb.5057597960967162/5057589634301328'
+                    );
+                  }}
+                  style={{ cursor: 'pointer' }}
+                />
+              </Card>
+            </div>
+          </div>
           <div className="scheduleDiv">
             <h3 className="schedHeaderText">Grading Criteria</h3>
             <div className="schedImageHolder">
@@ -329,340 +536,151 @@ const HackAUBG = () => {
             All participants will receive giftbags with swag from The Hub and HackAUBG 4.0 partners!
           </p>
         </div>
-        <div className="mentorsSection" id="Mentors">
-          <h3 className="mentorsText">Mentors</h3>
-          <div className="mentorsDiv">
-            <Card style={{ width: '15rem' }} className="mentorCard">
-              <Card.Img
-                variant="top"
-                src="andom mitev.png"
-                className="mentorImage"
-                onClick={() => {
-                  window.open(
-                    'https://www.facebook.com/TheHubAUBG/photos/pcb.5057068217686803/5057064861020472'
-                  );
-                }}
-              />
-            </Card>
-            <Card style={{ width: '15rem' }} className="mentorCard">
-              <Card.Img
-                variant="top"
-                src="Andri ivanov.png"
-                className="mentorImage"
-                onClick={() => {
-                  window.open(
-                    'https://www.facebook.com/TheHubAUBG/photos/pcb.5057068217686803/5057064851020473'
-                  );
-                }}
-              />
-            </Card>
-            <Card style={{ width: '15rem' }} className="mentorCard">
-              <Card.Img
-                variant="top"
-                src="borislav.png"
-                className="mentorImage"
-                onClick={() =>
-                  window.open(
-                    'https://www.facebook.com/TheHubAUBG/photos/pcb.5057068217686803/5057065054353786'
-                  )
-                }
-              />
-            </Card>
-            <Card style={{ width: '15rem' }} className="mentorCard">
-              <Card.Img
-                variant="top"
-                src="dimitar glavnikov.png"
-                className="mentorImage"
-                onClick={() =>
-                  window.open(
-                    'https://www.facebook.com/TheHubAUBG/photos/pcb.5057068217686803/5057065004353791'
-                  )
-                }
-              />
-            </Card>
-            <Card style={{ width: '15rem' }} className="mentorCard">
-              <Card.Img
-                variant="top"
-                src="dimitar Mitkov.png"
-                className="mentorImage"
-                onClick={() =>
-                  window.open(
-                    'https://www.facebook.com/TheHubAUBG/photos/pcb.5057068217686803/5057065051020453'
-                  )
-                }
-              />
-            </Card>
-            <Card style={{ width: '15rem' }} className="mentorCard">
-              <Card.Img
-                variant="top"
-                src={'/gavril.png'}
-                className="mentorImage"
-                onClick={() =>
-                  window.open(
-                    'https://www.facebook.com/TheHubAUBG/photos/pcb.5057068217686803/5057065197687105'
-                  )
-                }
-              />
-            </Card>
-            <Card style={{ width: '15rem' }} className="mentorCard">
-              <Card.Img
-                variant="top"
-                src={'/Iskren dimov.png'}
-                className="mentorImage"
-                onClick={() =>
-                  window.open(
-                    'https://www.facebook.com/TheHubAUBG/photos/pcb.5057068217686803/5057065241020434'
-                  )
-                }
-              />
-            </Card>
-            <Card style={{ width: '15rem' }} className="mentorCard">
-              <Card.Img
-                variant="top"
-                src={'/georgi ganchev.png'}
-                className="mentorImage"
-                onClick={() =>
-                  window.open(
-                    'https://www.facebook.com/TheHubAUBG/photos/pcb.5057068217686803/5057065227687102'
-                  )
-                }
-              />
-            </Card>
-            <Card style={{ width: '15rem' }} className="mentorCard">
-              <Card.Img
-                variant="top"
-                src={'/MArtin.png'}
-                className="mentorImage"
-                onClick={() =>
-                  window.open(
-                    'https://www.facebook.com/TheHubAUBG/photos/pcb.5057068217686803/5057065351020423'
-                  )
-                }
-              />
-            </Card>
-            <Card style={{ width: '15rem' }} className="mentorCard">
-              <Card.Img
-                variant="top"
-                src={'/anton GavrAilov.png'}
-                className="mentorImage"
-                onClick={() =>
-                  window.open(
-                    'https://www.facebook.com/TheHubAUBG/photos/pcb.5057068217686803/5057133851013573'
-                  )
-                }
-              />
-            </Card>
+
+        <div className="sponsorsSection" id="Partners">
+          <h3 className="partnersText">Sponsors</h3>
+          <div className="partnersHolders">
+            <Image className="partnersImages" src="/comp_logos/amplify.png"></Image>
+            <Image className="dro" src="/comp_logos/droxic.png"></Image>
+            <Image className="partnersImages" src="/comp_logos/paysafe.png"></Image>
+            <Image className="partnersImages" src="/comp_logos/vmware.png"></Image>
+            <Image className="partnersImages" src="/comp_logos/creative_assembly.png"></Image>
+            <Image className="partnersImages" src="/comp_logos/progress.png"></Image>
+            <Image className="partnersImages" src="/comp_logos/chaos.png"></Image>
+            <Image className="partnersImages" src="/comp_logos/uber_gold.png"></Image>
+            {/** bronze */}
+            <Image className="partnersImages" src="/comp_logos/postbank.png"></Image>
+            <Image className="partnersImages" src="/comp_logos/roiti.png"></Image>
+            <Image className="partnersImages" src="/comp_logos/mentormate.png"></Image>
+            <Image className="partnersImages" src="/comp_logos/axway.png"></Image>
+            <Image className="partnersImages" src="/comp_logos/out2bound.png"></Image>
+            <Image className="partnersImages" src="/comp_logos/weband.png"></Image>
+            <Image className="partnersImages" src="/comp_logos/weichain.png"></Image>
+            <Image className="partnersImages" src="/comp_logos/musalasoft.png"></Image>
+            <Image className="partnersImages" src="/comp_logos/bianor.png"></Image>
+            <Image className="partnersImages" src="/comp_logos/superhosting.png"></Image>
           </div>
-          <div className="judgesHolder" id="Judges">
-            <h3 className="judgesHeaderText">Judges</h3>
-            <div className="judgesDiv">
-              <Card style={{ width: '15rem' }} className="judgesCard">
-                <Card.Img
-                  variant="top"
-                  src={'/Monova.png'}
-                  className="judgesImage"
-                  onClick={() => {
-                    window.open(
-                      'https://www.facebook.com/TheHubAUBG/photos/pcb.5057597960967162/5057589710967987'
-                    );
-                  }}
-                />
-              </Card>
-              <Card style={{ width: '15rem' }} className="judgesCard">
-                <Card.Img
-                  variant="top"
-                  src={'/stoilov.png'}
-                  className="judgesImage"
-                  onClick={() => {
-                    window.open(
-                      'https://www.facebook.com/TheHubAUBG/photos/pcb.5057597960967162/5057589640967994'
-                    );
-                  }}
-                />
-              </Card>
-              <Card style={{ width: '15rem' }} className="judgesCard">
-                <Card.Img
-                  variant="top"
-                  src={'/marinova.png'}
-                  className="judgesImage"
-                  onClick={() => {
-                    window.open(
-                      'https://www.facebook.com/TheHubAUBG/photos/pcb.5057597960967162/5057589644301327'
-                    );
-                  }}
-                />
-              </Card>
-              <Card style={{ width: '15rem' }} className="judgesCard">
-                <Card.Img
-                  variant="top"
-                  src={'/Malchev.png'}
-                  className="judgesImage"
-                  onClick={() => {
-                    window.open(
-                      'https://www.facebook.com/TheHubAUBG/photos/pcb.5057597960967162/5057589637634661'
-                    );
-                  }}
-                />
-              </Card>
-              <Card style={{ width: '15rem' }} className="judgesCard">
-                <Card.Img
-                  variant="top"
-                  src={'/kumanov.png'}
-                  className="judgesImage"
-                  onClick={() => {
-                    window.open(
-                      'https://www.facebook.com/TheHubAUBG/photos/pcb.5057597960967162/5057589634301328'
-                    );
-                  }}
-                />
-              </Card>
+          {/* <div className="sponsorsHolders">
+            <h3 className="sponsorsText">Partners</h3>
+            <Image className="partnersImages" src={'/uber.png'}></Image>
+            <Image className="partnersImages" src={'/uber.png'}></Image>
+            <Image className="partnersImages" src={'/uber.png'}></Image>
+            <Image className="partnersImages" src={'/uber.png'}></Image>
+          </div> */}
+        </div>
+        <div className="FAQ" id="FAQ">
+          <h3 className="faqTextHeader">FAQ</h3>
+          <div className="faqGroup">
+            <div className="qs">
+              <h3>What is the deadline for registering?</h3>
+              <p>Registration is open until Friday, March 25th.</p>
             </div>
-          </div>
-          <div className="sponsorsSection" id="Partners">
-            <h3 className="partnersText">Sponsors</h3>
-            <div className="partnersHolders">
-              <Image className="partnersImages" src="/comp_logos/amplify.png"></Image>
-              <Image className="dro" src="/comp_logos/droxic.png"></Image>
-              <Image className="partnersImages" src="/comp_logos/paysafe.png"></Image>
-              <Image className="partnersImages" src="/comp_logos/vmware.png"></Image>
-              <Image className="partnersImages" src="/comp_logos/creative_assembly.png"></Image>
-              <Image className="partnersImages" src="/comp_logos/progress.png"></Image>
-              <Image className="partnersImages" src="/comp_logos/chaos.png"></Image>
-              <Image className="partnersImages" src="/comp_logos/uber_gold.png"></Image>
-              {/** bronze */}
-              <Image className="partnersImages" src="/comp_logos/postbank.png"></Image>
-              <Image className="partnersImages" src="/comp_logos/roiti.png"></Image>
-              <Image className="partnersImages" src="/comp_logos/mentormate.png"></Image>
-              <Image className="partnersImages" src="/comp_logos/axway.png"></Image>
-              <Image className="partnersImages" src="/comp_logos/out2bound.png"></Image>
-              <Image className="partnersImages" src="/comp_logos/weband.png"></Image>
-              <Image className="partnersImages" src="/comp_logos/weichain.png"></Image>
-              <Image className="partnersImages" src="/comp_logos/musalasoft.png"></Image>
-              <Image className="partnersImages" src="/comp_logos/bianor.png"></Image>
-              <Image className="partnersImages" src="/comp_logos/superhosting.png"></Image>
+            <div className="qs">
+              <h3>Can I register without a team?</h3>
+              <p>
+                Yes! If your alone or if you have only 1 teammate you can register and a facilitator
+                from the Hub organizing team will help you in finding more teammates. The wisest
+                team-combo would be a developer or two, a designer, and one or two business
+                planners.
+              </p>
             </div>
-            <div className="sponsorsHolders">
-              <h3 className="sponsorsText">Partners</h3>
-              <Image className="partnersImages" src={'/uber.png'}></Image>
-              <Image className="partnersImages" src={'/uber.png'}></Image>
-              <Image className="partnersImages" src={'/uber.png'}></Image>
-              <Image className="partnersImages" src={'/uber.png'}></Image>
+            <div className="qs">
+              <h3>Can I start developing something in advance?</h3>
+              <p>
+                We would advise you not to begin developing anything, since the theme is what
+                matters most when you decide on the project. However, you can definitely research
+                winning projects from other hackathons and practice brainstorming and developing
+                with your team.
+              </p>
             </div>
-          </div>
-          <div className="FAQ" id="FAQ">
-            <h3 className="faqTextHeader">FAQ</h3>
-            <div className="faqGroup">
-              <div className="qs">
-                <h3>What is the deadline for registering?</h3>
-                <p>Registration is open until Friday, March 25th.</p>
-              </div>
-              <div className="qs">
-                <h3>Can I register without a team?</h3>
-                <p>
-                  Yes! If your alone or if you have only 1 teammate you can register and a
-                  facilitator from the Hub organizing team will help you in finding more teammates.
-                  The wisest team-combo would be a developer or two, a designer, and one or two
-                  business planners.
-                </p>
-              </div>
-              <div className="qs">
-                <h3>Can I start developing something in advance?</h3>
-                <p>
-                  We would advise you not to begin developing anything, since the theme is what
-                  matters most when you decide on the project. However, you can definitely research
-                  winning projects from other hackathons and practice brainstorming and developing
-                  with your team.
-                </p>
-              </div>
-              <div className="qs">
-                <h3>Is there a theme for this hackathon?</h3>
-                <p>
-                  Yes! However, the HackAUBG format requires that the theme is kept a secret until
-                  the Opening Ceremony on Friday.
-                </p>
-              </div>
-              <div className="qs">
-                <h3>
-                  Will there be a communication board where I can ask questions during the event?
-                </h3>
-                <p>
-                  Yes, indeed! It will be in the form of a private Facebook group for all the
-                  registered participants. We'll send you a link with your registration confirmation
-                  email.
-                </p>
-              </div>
-              <div className="qs">
-                <h3>Is there a specific technology I need to use for my project?</h3>
-                <p>
-                  None at all. Although, the judges do reward the projects with more modern
-                  tech-stacks a bit higher usually. But, most importantly, remember to focus on the
-                  execution!
-                </p>
-              </div>
+            <div className="qs">
+              <h3>Is there a theme for this hackathon?</h3>
+              <p>
+                Yes! However, the HackAUBG format requires that the theme is kept a secret until the
+                Opening Ceremony on Friday.
+              </p>
+            </div>
+            <div className="qs">
+              <h3>
+                Will there be a communication board where I can ask questions during the event?
+              </h3>
+              <p>
+                Yes, indeed! It will be in the form of a private Facebook group for all the
+                registered participants. We'll send you a link with your registration confirmation
+                email.
+              </p>
+            </div>
+            <div className="qs">
+              <h3>Is there a specific technology I need to use for my project?</h3>
+              <p>
+                None at all. Although, the judges do reward the projects with more modern
+                tech-stacks a bit higher usually. But, most importantly, remember to focus on the
+                execution!
+              </p>
             </div>
           </div>
         </div>
-        <div className="hubFooter">
-          <div className="ContactUs" id="ContactUs">
-            <div className="iconsContacts">
-              <div className="icons">
-                <p>
-                  <AiOutlinePhone /> Phone:{' '}
-                </p>
-                <p>
-                  <AiOutlineMail /> Mail:{' '}
-                </p>
-                <p>
-                  <GoLocation /> Address:{' '}
-                </p>
-              </div>
-              <div className="iconsMin">
-                <a href="tel:+359892963652">
-                  <AiOutlinePhone className="minIcons" />
-                </a>
-                <a href="mailto:thehubaubg@gmail.com">
-                  <AiOutlineMail className="minIcons" />
-                </a>
-                <a href="https://www.google.com/maps/place/ul.+%22Svoboda+Bachvarova%22+12,+2700+Southern+Industrial+Zone,+Blagoevgrad/@42.0119036,23.0925089,17z/data=!3m1!4b1!4m5!3m4!1s0x14aaf5ff8c1a6fed:0x2c05f64204be56a2!8m2!3d42.0119036!4d23.0946976">
-                  <GoLocation className="minIcons" />
-                </a>
-              </div>
-              <div className="data">
-                <p>
-                  <a href="tel:+359892963652" className="linkStyle">
-                    +359 89 2963652
-                  </a>
-                </p>
-                <p>
-                  <a href="mailto:thehubaubg@gmail.com" className="linkStyle">
-                    thehubaubg@gmail.com
-                  </a>
-                </p>
-                <p>Svoboda Bachvarova 12, Blagoevgrad</p>
-              </div>
+      </div>
+      <div className="hubFooter">
+        <div className="ContactUs" id="ContactUs">
+          <div className="iconsContacts">
+            <div className="icons">
+              <p>
+                <AiOutlinePhone /> Phone:{' '}
+              </p>
+              <p>
+                <AiOutlineMail /> Mail:{' '}
+              </p>
+              <p>
+                <GoLocation /> Address:{' '}
+              </p>
             </div>
-            <div className="Socials">
+            <div className="iconsMin">
+              <a href="tel:+359892963652">
+                <AiOutlinePhone className="minIcons" />
+              </a>
+              <a href="mailto:thehubaubg@gmail.com">
+                <AiOutlineMail className="minIcons" />
+              </a>
+              <a href="https://www.google.com/maps/place/ul.+%22Svoboda+Bachvarova%22+12,+2700+Southern+Industrial+Zone,+Blagoevgrad/@42.0119036,23.0925089,17z/data=!3m1!4b1!4m5!3m4!1s0x14aaf5ff8c1a6fed:0x2c05f64204be56a2!8m2!3d42.0119036!4d23.0946976">
+                <GoLocation className="minIcons" />
+              </a>
+            </div>
+            <div className="data">
               <p>
-                <a href="https://www.facebook.com/TheHubAUBG">
-                  <AiOutlineFacebook className="socialLogos" />
+                <a href="tel:+359892963652" className="linkStyle">
+                  +359 89 2963652
                 </a>
               </p>
               <p>
-                <a href="https://www.instagram.com/thehubaubg/?hl=en./">
-                  <AiOutlineInstagram className="socialLogos" />
+                <a href="mailto:thehubaubg@gmail.com" className="linkStyle">
+                  thehubaubg@gmail.com
                 </a>
               </p>
-              <p>
-                <a href="https://www.linkedin.com/company/the-hub-aubg/">
-                  <AiOutlineLinkedin className="socialLogos"></AiOutlineLinkedin>
-                </a>
-              </p>
+              <p>Svoboda Bachvarova 12, Blagoevgrad</p>
             </div>
           </div>
+          <div className="Socials">
+            <p>
+              <a href="https://www.facebook.com/TheHubAUBG">
+                <AiOutlineFacebook className="socialLogos" />
+              </a>
+            </p>
+            <p>
+              <a href="https://www.instagram.com/thehubaubg/?hl=en./">
+                <AiOutlineInstagram className="socialLogos" />
+              </a>
+            </p>
+            <p>
+              <a href="https://www.linkedin.com/company/the-hub-aubg/">
+                <AiOutlineLinkedin className="socialLogos"></AiOutlineLinkedin>
+              </a>
+            </p>
+          </div>
+        </div>
 
-          <div className="trademark">
-            <p className="removeMargin">© The Hub AUBG 2021</p>
-          </div>
+        <div className="trademark">
+          <p className="removeMargin">© The Hub AUBG 2021</p>
         </div>
       </div>
     </div>
