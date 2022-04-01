@@ -363,7 +363,7 @@ table td {
 }
 
 .tableTwo {
-  /* padding-top: 1.5rem; */
+  padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
 
@@ -373,6 +373,8 @@ table td {
 }
 
 .schedHeaderText {
+  text-align: center;
+  align-self: center;
   color: black;
   font-weight: 400;
 }
