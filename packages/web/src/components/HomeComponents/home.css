@@ -74,6 +74,12 @@
   padding-bottom: 4rem;
 }
 
+.tableFour {
+  padding-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
 @media only screen and (max-width: 900px) {
   .aboutUsPage {
     padding-left: 4rem;
@@ -82,6 +88,9 @@
   .aboutEventsPage {
     padding-left: 4rem;
     padding-right: 4rem;
+  }
+  .tableFour {
+    display: block;
   }
 }
 
