@@ -311,8 +311,9 @@
 
 .butUL {
   margin: 0.5rem;
-
+  text-decoration: none;
   white-space: pre-wrap;
+  color: white;
   /* white-space: -moz-pre-wrap; /* Firefox */
   /* white-space: -pre-wrap;     /* Opera <7 */
   /* white-space: -o-pre-wrap;   /* Opera 7 */
@@ -320,8 +321,8 @@
 }
 
 .butUL:hover {
-  color: royalblue;
-  background-color: white;
+  background-color: royalblue;
+  color: white;
 }
 
 .scheduleDiv {
