@@ -331,6 +331,7 @@
   flex-direction: column;
   text-align: center;
   padding-bottom: 2rem;
+  justify-content: center;
 }
 
 .schedImageHolder {
@@ -395,6 +396,22 @@ table td {
   padding-bottom: 5rem;
 }
 
+@media only screen and (max-width: 850px) {
+  .scheduleDiv {
+    padding-top: 2rem;
+    resize: both;
+    overflow: auto;
+    max-width: 100vw;
+  }
+  .scheduleDiv td {
+    resize: both;
+  }
+}
+
+@media only screen and (max-width: 450) {
+  .sheduleDiv {
+  }
+}
 .awardsText {
   color: white;
   padding-bottom: 2.5rem;
