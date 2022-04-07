@@ -9,6 +9,7 @@ import DevelopmentTeam from './components/HomeComponents/meetTheTeam/development
 import LogisticsTeam from './components/HomeComponents/meetTheTeam/logisticsTeam';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import RegistrationForm from './components/HomeComponents/registerForm/registrationForm';
+import JobHome from './components/JobOpportunities/JobHome';
 function App() {
   return (
     <BrowserRouter>
@@ -20,6 +21,7 @@ function App() {
         <Route path="developmentdepartment" element={<DevelopmentTeam></DevelopmentTeam>}></Route>
         <Route path="logisticsdepartment" element={<LogisticsTeam></LogisticsTeam>}></Route>
         <Route path="register" element={<RegistrationForm></RegistrationForm>}></Route>
+        <Route path="jobopportunities" element={<JobHome />}></Route>
       </Routes>
     </BrowserRouter>
   );
