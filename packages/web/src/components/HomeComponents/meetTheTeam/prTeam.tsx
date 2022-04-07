@@ -21,6 +21,18 @@ const PRTeam = () => {
       <div className="initialHolder">
         <div className="holder">
           <Card style={{ width: '18rem' }} className="cards">
+            <Card.Img variant="top" src="/krisi.png" className="imageTag" />
+            <Card.Body>
+              <Card.Title>Krisi - President</Card.Title>
+              <Button
+                className="socialButton"
+                href="https://www.linkedin.com/in/kristina-borisova-447293142/"
+              >
+                Find on LinkedIn
+              </Button>
+            </Card.Body>
+          </Card>
+          <Card style={{ width: '18rem' }} className="cards">
             <Card.Img variant="top" src="/Marie.png" className="imageTag" />
             <Card.Body>
               <Card.Title>Marie - Head</Card.Title>
@@ -33,18 +45,7 @@ const PRTeam = () => {
               </Button>
             </Card.Body>
           </Card>
-          <Card style={{ width: '18rem' }} className="cards">
-            <Card.Img variant="top" src="/krisi.png" className="imageTag" />
-            <Card.Body>
-              <Card.Title>Krisi - President</Card.Title>
-              <Button
-                className="socialButton"
-                href="https://www.linkedin.com/in/kristina-borisova-447293142/"
-              >
-                Find on LinkedIn
-              </Button>
-            </Card.Body>
-          </Card>
+
           <Card style={{ width: '18rem' }} className="cards">
             <Card.Img variant="top" src="/Ivan Asen.png" className="imageTag" />
             <Card.Body>

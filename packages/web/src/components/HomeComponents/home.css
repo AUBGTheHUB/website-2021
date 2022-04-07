@@ -218,7 +218,7 @@
 }
 
 .cardStyle {
-  max-width: 15rem;
+  max-width: 14rem;
   margin: 1rem;
   min-height: 32rem;
   background-color: white;
@@ -226,6 +226,12 @@
   transition: 0.3s;
   border: 1px;
   border-color: black;
+}
+
+@media only screen and (max-width: 1000px){
+  .cardStyle{
+    max-width: 12rem;
+  }
 }
 
 .cardStyle:hover {

@@ -1,0 +1,95 @@
+.job-opp-all {
+  background-image: linear-gradient(rgb(21, 76, 121), rgb(118, 181, 197));
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.job-holder {
+  margin-top: 10vh;
+  width: 80vw;
+  margin-left: 10vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.job-posting{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 5rem;
+}
+
+.job-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 1rem;
+  background-color: white;
+}
+
+.job-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.job-header h3{
+    font-size: large;
+}
+
+.job-card{
+  padding-top: 2rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+    margin-top: 2rem;
+    border-radius: 2.5rem;
+    text-align: center;
+}
+
+.job-card:hover{
+  width: 20rem !important;
+  /* -webkit-animation: hovered;
+  -webkit-animation: hovered 1s ease-in !important;
+  animation-duration: 1s; */
+  box-shadow: 0px 0px 50px rgb(118, 181, 197);
+}
+
+.job-box{
+    max-width: 60vw;
+    max-height: 20vh;
+    background-color: white;
+}
+
+.job-logos{
+    max-width: 300px;
+}
+
+.roiti_image{
+  width: 80%;
+  margin-left: 10%;
+}
+
+
+/* @keyframes hovered {
+  0% {
+    width: 18rem !important;
+  } 
+  100% {
+    width: 21rem !important;
+  }
+}
+
+@-webkit-keyframes hovered{
+  0% {
+    width: 18rem !important;
+  } 
+  100% {
+    width: 21rem !important;
+  }
+} */
+
+

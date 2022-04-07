@@ -4,7 +4,7 @@ import HubLogo from './resized_hub_logo.png';
 import './navbar.css';
 import { useMediaQuery } from 'react-responsive';
 
-const Navigation = () => {
+const NavigationJobs = () => {
   const isMobile = useMediaQuery({ query: '(max-width: 1000px)' });
   const bgStyle = isMobile ? 'dark' : 'transparent';
   //const textStyle = isMobile ? 'dark' : 'light';
@@ -21,12 +21,6 @@ const Navigation = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
             <Nav>
-              <Nav.Link href="#about" className="link-text">
-                About Us
-              </Nav.Link>
-              <Nav.Link href="#team" className="link-text">
-                Team
-              </Nav.Link>
               <Nav.Link href="/jobopportunities" className="link-text">
                 Job Opportunities
               </Nav.Link>
@@ -46,4 +40,4 @@ const Navigation = () => {
   );
 };
 
-export default Navigation;
+export default NavigationJobs;
