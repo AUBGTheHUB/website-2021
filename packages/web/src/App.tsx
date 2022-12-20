@@ -22,6 +22,7 @@ function App() {
         <Route path="logisticsdepartment" element={<LogisticsTeam></LogisticsTeam>}></Route>
         <Route path="register" element={<RegistrationForm></RegistrationForm>}></Route>
         <Route path="jobopportunities" element={<JobHome />}></Route>
+        <Route path="hackaubg-online-programming-hackathon" element={<HackAUBG />} />
       </Routes>
     </BrowserRouter>
   );
